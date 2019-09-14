@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-  <meta charset="utf-8">
-  <title>Гостиницы Седоны</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title lang="en">Welcome to the gorgeous Sedona</title>
+  </head>
 
 <body>
 
   <header>
 
-    <nav>
+    <nav aria-label="Меню сайта">
 
       <a href="index.html">
-        <img src="img/svg/logo-sedona.svg" width="138" height="71" alt="Логотип City of Sedona">
+        <img src="img/svg/logo-sedona.svg" width="138" height="71" alt="Логотип City of Sedona" >
       </a>
 
       <ul>
@@ -39,45 +38,124 @@
 
     <h1>Гостиницы</h1>
 
-    <!-- Здесь будет раздел с фильтрами -->
-
     <section>
+      <h2 class="visually-hidden">Параметры поиска жилья</h2>
 
-      <h2>Инфраструктура:</h2>
-      <ul>
-        <li>Бассейн</li>
-        <li>Парковка</li>
-        <li>Wi-Fi</li>
-      </ul>
+      <form>
 
-      <h2>Тип жилья:</h2>
-      <ul>
-        <li>Гостиница</li>
-        <li>Мотель</li>
-        <li>Апартаменты</li>
-      </ul>
+        <fieldset>
 
-      <h2>Стоимость в сутки (Р):</h2>
-      <!-- -->
+          <legend>Инфраструктура:</legend>
 
+          <ul>
+
+            <li>
+              <input type="checkbox" name="infrastructure" id="swimpool" checked>
+              <label for="swimpool">
+                <span></span> Бассейн
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="infrastructure" id="parking">
+              <label for="parking">
+                <span></span> Парковка
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="infrastructure" id="wifi">
+              <label for="wifi" lang="en">
+                <span></span> Wi-Fi
+              </label>
+            </li>
+
+          </ul>
+
+        </fieldset>
+
+        <fieldset>
+
+          <legend>Тип жилья:</legend>
+
+          <ul>
+
+            <li>
+              <input type="checkbox" name="type" id="hotel" checked>
+              <label for="hotel">
+                <span></span> Гостиница
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="type" id="motel" checked>
+              <label for="motel">
+                <span></span> Мотель
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="type" id="appartment" checked>
+              <label for="appartment">
+                <span></span> Апартаменты
+              </label>
+            </li>
+
+          </ul>
+
+        </fieldset>
+
+        <fieldset>
+
+          <legend>Стоимость в сутки (Р):</legend>
+          <div>
+            от 0 <span></span> до 3000
+          </div>
+
+          <input type="range" name="price-min" id="price-min" min="0" max="2400" step="100">
+          <input type="range" name="price-max" id="price-max" min="2500" max="3000" step="100">
+          <div class="range-line"></div>
+          <span class="range-control"></span>
+          <span class="range-control"></span>
+
+        </fieldset>
+
+        <button type="submit">Показать</button>
+
+      </form>
     </section>
 
+
+
     <section>
 
-      <div>
+      <header>
 
         <h2 class="visually-hidden">Результат поиска гостиниц</h2>
-
-        <p>Найдено: 3</p>
+        <p>Найдено: <span>3</span></p>
 
         <h3>Сортировка:</h3>
+
         <ul>
-          <li>По цене</li>
-          <li>По типу</li>
-          <li>По рейтингу</li>
+
+          <li>
+            <button type="button" name="button">По цене</button>
+          </li>
+          <li>
+            <button type="button" name="button">По типу</button>
+          </li>
+          <li>
+            <button type="button" name="button">По рейтингу</button>
+          </li>
+
         </ul>
 
-      </div>
+        <div class="">
+          <button type="button" name="down"></button>
+          <button type="button" name="up"></button>
+        </div>
+
+      </header>
 
 
       <ul>
@@ -154,22 +232,26 @@
   <footer>
 
     <div>
-      <a href="#" lang="en">#VisitSedona</a>
+      <a href="#" lang="en" aria-label="Хештег Седоны в Инстаграмме">#VisitSedona</a>
     </div>
 
     <div>
+
         <ul>
+
           <li><a href="#" aria-label="Седона в Твиттере"></a></li>
           <li><a href="#" aria-label="Седона в Фейсбуке"></a></li>
           <li><a href="#" aria-label="Седона на Ютубе"></a></li>
+
         </ul>
+
     </div>
 
     <div>
 
       <p>
         Website by
-        <a href="https://htmlacademy.ru/intensive/htmlcss">
+        <a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Сайт HTML Academy">
           <img src="img/svg/logo-htmlacademy.svg" width="115" height="41" alt="Логотип html academy">
         </a>
       </p>
