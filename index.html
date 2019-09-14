@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Welcome to the gorgeous Sedona</title>
+    <title lang="en">Welcome to the gorgeous Sedona</title>
   </head>
 
 <body>
@@ -37,8 +37,9 @@
   <main>
 
     <section>
-      <h1>Welcome to the gorgeous Sedona</h1>
-      <img src="img/welcome.png" width="458" height="352" alt="Welcome to the gorgeous Sedona">
+      <h1 class="visually-hidden" lang="en">Welcome to the gorgeous Sedona</h1>
+      <p class="visually-hidden" lang="en">Because the Grand Canyon sucks!</p>
+      <img src="img/welcome.png" width="458" height="352" alt="">
     </section>
 
     <section>
@@ -57,7 +58,7 @@
           </div>
 
           <div>
-            <img src="img/city.jpg" width="800" height="256" alt="Настоящий  городок">
+            <img src="img/city.jpg" width="800" height="256" alt="Городок">
           </div>
 
           <ul>
@@ -111,7 +112,7 @@
         <li>
 
           <div>
-            <h3>Небольшая площадь</h3>
+            <h3>Небольшая  площадь</h3>
             <span>— №3 —</span>
             <p>Все достопримечательности находятся очень близко</p>
           </div>
@@ -154,12 +155,12 @@
 
         <div class="">
           <label for="date-arrival">Дата заезда:</label>
-          <input type="text" name="date-arrival" value="" placeholder="24 апреля 2017">
+          <input type="date" name="date-arrival" value="" placeholder="24 апреля 2017">
         </div>
 
         <div class="">
           <label for="date-departure">Дата выезда:</label>
-          <input type="text" name="date-departure" value="" placeholder="4 июля 2017">
+          <input type="date" name="date-departure" value="" placeholder="4 июля 2017">
         </div>
 
         <div class="">
@@ -182,16 +183,16 @@
   <footer>
 
     <div>
-      <a href="#">#VisitSedona</a>
+      <a href="#" lang="en">#VisitSedona</a>
     </div>
 
     <div>
 
         <ul>
 
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Youtube</a></li>
+          <li><a href="#" aria-label="Седона в Твиттере"></a></li>
+          <li><a href="#" aria-label="Седона в Фейсбуке"></a></li>
+          <li><a href="#" aria-label="Седона на Ютубе"></a></li>
 
         </ul>
 
