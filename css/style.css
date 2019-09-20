@@ -36,11 +36,9 @@ body {
   color: #000000;
   text-decoration: none;
 }
-
 .menu__link:hover {
   color: #81B3D2;
 }
-
 .menu__link:active {
   color: #000000;
   opacity: 0.3;
@@ -65,9 +63,7 @@ body {
 .features__heading {
   font-size: 21px;
   font-weight: 700;
-
 }
-
 .features__item:nth-child(1),
 .features__item:nth-child(3) {
   color: #ffffff;
@@ -78,11 +74,9 @@ body {
   list-style: none;
   background-color: #ffffff;
 }
-
 .benefits__item {
   color: #333333;
 }
-
 .benefits__heading {
   font-size: 21px;
   font-weight: 700;
@@ -124,8 +118,11 @@ body {
   color: #000000;
 }
 
-
 .input__field {
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+
   background-color: #F2F2F2;
 }
 .input__field:hover {
@@ -134,7 +131,6 @@ body {
 .input__field:focus {
   background-color: #ffffff;
 }
-
 .input__field::placeholder {
   font-weight: 700;
   color: #000000;
@@ -162,16 +158,68 @@ body {
 
   text-decoration: none;
 }
-
 .social__link:hover {
   color: #81B3D2;
 }
-
 .social__link:active {
   color: #000000;
   opacity: 0.3;
 }
 
-.copyright {
+.copyrigth {
   line-height: 26px;
+}
+
+/* hotels.html */
+.hotels {
+  text-align: left;
+  list-style: none;
+}
+
+.hotel__link {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+
+  text-decoration: none;
+}
+.hotel__link:hover {
+  color: #81B3D2;
+}
+.hotel__link:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.hotel__info {
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #81B3D2;
+
+  text-decoration: none;
+}
+.hotel__info:hover {
+  background-color: #669EC0;
+}
+.hotel__info:active {
+  background-color: #5496BD;
+}
+
+.btn__booking{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  background-color: #766357;
+}
+.btn__booking:hover{
+  background-color: #604E43;
+}
+.btn__booking:active{
+  background-color: #503E33;
+}
+
+.rating {
+  color: #666666;
+  background-color: #F2F2F2;
 }
