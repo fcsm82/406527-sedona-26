@@ -1,15 +1,63 @@
+.filter{
+  background-color: #497EA8;
+  background-image: url("../img/backgrounds/filter-background.jpg");
+}
+.fieldset{
+  border: none;
+}
+.fieldset__heading{
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.infrastructure,
+.accomodation{
+  list-style: none;
+}
+.infrastructure__label,
+.accomodation__label{
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.price{
+  ont-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
+.price__filter{
+  color: #FFFFFF;
+}
+
 .hotels {
   text-align: left;
   list-style: none;
 }
+
 .hotel__link {
   font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+
+  text-decoration: none;
+}
+.hotel__link:hover {
+  color: #81B3D2;
+}
+.hotel__link:active {
+  color: #000000;
+  opacity: 0.3;
 }
 
 .hotel__info {
   font-weight: 700;
   color: #ffffff;
   background-color: #81B3D2;
+
   text-decoration: none;
 }
 .hotel__info:hover {
@@ -18,6 +66,7 @@
 .hotel__info:active {
   background-color: #5496BD;
 }
+
 .rating {
   color: #666666;
   background-color: #F2F2F2;
