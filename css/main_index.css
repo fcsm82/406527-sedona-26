@@ -19,13 +19,13 @@
   font-weight: 700;
 }
 .features__item--phasized {
-  color: #ffffff;
+  color: #FFFFFF;
   background-color: #81B3D2;
 }
 
 .benefits {
   list-style: none;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 .benefits__item {
   color: #333333;
