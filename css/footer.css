@@ -1,0 +1,22 @@
+.social {
+  list-style: none;
+}
+.social__link {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+
+  text-decoration: none;
+}
+.social__link:hover {
+  color: #81B3D2;
+}
+.social__link:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.copyrigth {
+  line-height: 26px;
+}

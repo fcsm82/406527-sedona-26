@@ -1,0 +1,23 @@
+.menu {
+  list-style: none;
+}
+.menu__link {
+  font-weight: 700;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: none;
+}
+.menu__link:hover {
+  color: #81B3D2;
+}
+.menu__link:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.menu__link--current {
+  color: #766357;
+}
+.menu__link--current:hover {
+  color: #766357;
+}

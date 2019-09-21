@@ -1,0 +1,102 @@
+.welcome {
+  background-color: #9EDAFE;
+  background-image: url("../img/backgrounds/sedona-background.jpg");
+}
+
+.about {
+  line-height: 26px;
+}
+.about__heading {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.features {
+  list-style: none;
+}
+.features__heading {
+  font-size: 21px;
+  font-weight: 700;
+}
+.features__item:nth-child(1),
+.features__item:nth-child(3) {
+  color: #ffffff;
+  background-color: #81B3D2;
+}
+
+.benefits {
+  list-style: none;
+  background-color: #ffffff;
+}
+.benefits__item {
+  color: #333333;
+}
+.benefits__heading {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.text {
+  line-height: 24px;
+}
+
+.search__heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.btn {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #ffffff;
+
+  text-transform: uppercase;
+}
+.btn:active .btn__text{
+  opacity: 0.3;
+}
+
+.btn__search {
+  background-color: #766357;
+}
+.btn__search:hover {
+  background-color: #604E43;
+}
+.btn__search:active {
+  background-color: #503E33;
+}
+
+.input__label {
+  font-weight: 700;
+  color: #000000;
+}
+
+.input__field {
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #F2F2F2;
+}
+.input__field:hover {
+  background-color: #EBEBEB;
+}
+.input__field:focus {
+  background-color: #ffffff;
+}
+.input__field::placeholder {
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.btn__submit {
+  background-color: #81B3D2;
+}
+.btn__submit:hover {
+  background-color: #669EC0;
+}
+.btn__submit:active {
+  background-color: #5496BD;
+}

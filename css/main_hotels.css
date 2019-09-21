@@ -1,0 +1,52 @@
+.hotels {
+  text-align: left;
+  list-style: none;
+}
+
+.hotel__link {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+
+  text-decoration: none;
+}
+.hotel__link:hover {
+  color: #81B3D2;
+}
+.hotel__link:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.hotel__info {
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #81B3D2;
+
+  text-decoration: none;
+}
+.hotel__info:hover {
+  background-color: #669EC0;
+}
+.hotel__info:active {
+  background-color: #5496BD;
+}
+
+.btn__booking{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  background-color: #766357;
+}
+.btn__booking:hover{
+  background-color: #604E43;
+}
+.btn__booking:active{
+  background-color: #503E33;
+}
+
+.rating {
+  color: #666666;
+  background-color: #F2F2F2;
+}
