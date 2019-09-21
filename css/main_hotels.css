@@ -23,13 +23,53 @@
 }
 
 .price{
-  ont-size: 14px;
+  font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   color: #333333;
 }
 .price__filter{
   color: #FFFFFF;
+}
+
+.sort{
+  list-style: none;
+}
+.results__heading{
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.results__heading--sort {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.link__sort {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+  opacity: 0.3;
+
+  text-decoration-color: #81B3D2;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+.link__sort:hover{
+  color: #81B3D2;
+  opacity: 1;
+}
+.link__sort:active{
+  color: #000000;
+  text-decoration-line: none;
+  opacity: 1;
+}
+
+.link__sort--current {
+  color: #81B3D2;
+  text-decoration-line: none;
 }
 
 .hotels {
@@ -55,7 +95,7 @@
 
 .hotel__info {
   font-weight: 700;
-  color: #ffffff;
+  color: #FFFFFF;
   background-color: #81B3D2;
 
   text-decoration: none;

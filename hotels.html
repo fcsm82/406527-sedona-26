@@ -65,14 +65,14 @@
 
             <li class="infrastructure__item">
               <input type="checkbox" name="parking" id="parking">
-              <label class="infrastructure__label" class="input__label" for="parking">
+              <label class="infrastructure__label" for="parking">
                 <span></span> Парковка
               </label>
             </li>
 
             <li class="infrastructure__item">
               <input type="checkbox" name="wifi" id="wifi">
-              <label class="infrastructure__label" class="input__label" for="wifi" lang="en">
+              <label class="infrastructure__label" for="wifi" lang="en">
                 <span></span> Wi-Fi
               </label>
             </li>
@@ -89,14 +89,14 @@
 
             <li class="accomodation__type">
               <input type="checkbox" name="hotel" id="hotel" checked>
-              <label class="accomodation__label" class="input__label" for="hotel">
+              <label class="accomodation__label" for="hotel">
                 <span></span> Гостиница
               </label>
             </li>
 
             <li class="accomodation__type">
               <input type="checkbox" name="motel" id="motel" checked>
-              <label class="accomodation__label" class="input__label" for="motel">
+              <label class="accomodation__label" for="motel">
                 <span></span> Мотель
               </label>
             </li>
@@ -134,25 +134,25 @@
 
 
 
-    <section>
+    <section class="results">
 
-      <header>
+      <header class="header">
 
         <h2 class="visually-hidden">Результат поиска гостиниц</h2>
-        <p>Найдено: <span>3</span></p>
+        <h3 class="results__heading">Найдено: <span>3</span></h3>
 
-        <h3>Сортировка:</h3>
+        <h3 class="results__heading results__heading--sort">Сортировка:</h3>
 
-        <ul>
+        <ul class="sort">
 
-          <li>
-            <button type="button" name="button">По цене</button>
+          <li class="sort__item">
+            <a class="link link__sort link__sort--current" aria-label="Сортировка по цене">По цене</a>
           </li>
-          <li>
-            <button type="button" name="button">По типу</button>
+          <li class="sort__item">
+            <a class="link link__sort" aria-label="Сортировка по типу">По типу</a>
           </li>
-          <li>
-            <button type="button" name="button">По рейтингу</button>
+          <li class="sort__item">
+            <a class="link link__sort" aria-label="Сортировка по рейтингу">По рейтингу</a>
           </li>
 
         </ul>
