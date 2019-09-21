@@ -70,6 +70,8 @@
 .link__sort--current {
   color: #81B3D2;
   text-decoration-line: none;
+  opacity: 1;
+
 }
 
 .hotels {
