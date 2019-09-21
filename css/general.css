@@ -7,8 +7,8 @@ body {
     font-family: 'PT Sans', 'Arial', sans-serif;
     font-style: normal;
     font-size: 14px;
-    font-weight: 400;
     line-height: 21px;
+    font-weight: 400;
     text-align: center;
     color: #333333;
     text-transform: uppercase;
@@ -25,4 +25,17 @@ body {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.link {
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+.link:hover {
+  color: #81B3D2;
+}
+.link:active {
+  opacity: 0.3;
 }
