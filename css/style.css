@@ -44,6 +44,13 @@ body {
   opacity: 0.3;
 }
 
+.menu__link--current {
+  color: #766357;
+}
+.menu__link--current:hover {
+  color: #766357;
+}
+
 .welcome {
   background-color: #9EDAFE;
   background-image: url("../img/backgrounds/sedona-background.jpg");
