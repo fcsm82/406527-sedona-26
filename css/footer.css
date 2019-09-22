@@ -1,5 +1,9 @@
+.footer {
+
+}
 .footer .container {
   display: flex;
+  min-height: 120px;
   justify-content: space-around;
 }
 
@@ -14,7 +18,17 @@
 .social__link {
   font-size: 21px;
 }
-
-.copyright {
+.hashtag {
+  box-sizing: border-box;
+  width: 240px;
   margin: 0;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.copyright {
+  box-sizing: border-box;
+  width: 240px;
+  margin: 0;
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
