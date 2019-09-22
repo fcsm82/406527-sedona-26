@@ -1,10 +1,11 @@
 .nav .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logo {
   position: absolute;
+  padding-left: 531px;
 }
 
 .menu {
@@ -17,6 +18,8 @@
 }
 
 .menu__column {
+  display: flex;
+  justify-content: space-between;
   width: 478px;
 }
 
