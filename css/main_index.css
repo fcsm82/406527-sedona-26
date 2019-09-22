@@ -94,12 +94,15 @@
 
 .search__text {
   display: block;
-  margin: 0 auto;
-  padding-top: 55px;
+  margin: 0 auto 44px auto;
+
+  padding-top: 12px;
   width: 464px;
 }
 
 .search__heading {
+  display: block;
+  margin-bottom: 6px;
   font-size: 30px;
   font-weight: 700;
 }
@@ -112,7 +115,6 @@
   padding-right: 55px;
   padding-left: 55px;
   border-bottom: 55px;
-  outline: 1px red dotted;
 }
 
 .map {
