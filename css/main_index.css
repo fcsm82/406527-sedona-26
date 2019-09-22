@@ -72,7 +72,6 @@
   list-style: none;
   padding: 0;
   background-color: #FFFFFF;
-
 }
 
 .benefits__item {
@@ -95,7 +94,6 @@
 .search__text {
   display: block;
   margin: 0 auto 44px auto;
-
   padding-top: 12px;
   width: 464px;
 }
