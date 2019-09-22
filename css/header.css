@@ -1,18 +1,33 @@
+.nav .container {
+  display: flex;
+  justify-content: space-around;
+}
+
 .logo {
   position: absolute;
-  width: 138px;
-  height: 70px;
 }
 
 .menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: space-around;
   list-style: none;
 }
 
-.menu__item: .menu__link--current {
+.menu__column {
+  width: 478px;
+}
+
+.menu__item {
+  box-sizing: border-box;
+  width: 239px;
+  min-height: 56px;
+  padding-top: 14px;
+}
+
+.menu__link--current {
   color: #766357;
 }
 
