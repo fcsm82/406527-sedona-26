@@ -1,12 +1,13 @@
 .welcome {
   background-color: #9EDAFE;
   background-image: url("../img/backgrounds/sedona-background.jpg");
+  margin-bottom: 81px;
 }
 
 .welcome__img {
   width: 458px;
-  margin-bottom: 138px;
   padding-top: 76px;
+  padding-bottom: 24px;
 }
 
 .about {
