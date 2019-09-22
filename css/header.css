@@ -1,11 +1,14 @@
+.nav {
+  margin-bottom: -15px;
+}
 .nav .container {
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  position: absolute;
-  padding-left: 531px;
+  width: 138px;
+  height: 71px;
 }
 
 .menu {
@@ -27,7 +30,7 @@
   box-sizing: border-box;
   width: 239px;
   min-height: 56px;
-  padding-top: 14px;
+  padding-top: 7px;
 }
 
 .menu__link--current {
