@@ -1,45 +1,52 @@
-.filter{
+.filter {
   background-color: #497EA8;
   background-image: url("../img/backgrounds/filter-background.jpg");
 }
-.fieldset{
+
+.fieldset {
   border: none;
 }
-.fieldset__heading{
+
+.fieldset__heading {
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
   color: #FFFFFF;
 }
+
 .infrastructure,
-.accomodation{
+.accomodation {
   list-style: none;
 }
+
 .infrastructure__label,
-.accomodation__label{
+.accomodation__label {
   font-size: 14px;
   font-weight: 400;
   color: #FFFFFF;
 }
 
-.price{
+.price {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   color: #333333;
 }
-.price__filter{
+
+.price__filter {
   color: #FFFFFF;
 }
 
-.sort{
+.sort {
   list-style: none;
 }
-.results__heading{
+
+.results__heading {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
 }
+
 .results__heading--sort {
   font-size: 12px;
   line-height: 18px;
@@ -52,16 +59,17 @@
   font-weight: 400;
   color: #000000;
   opacity: 0.3;
-
   text-decoration-color: #81B3D2;
   text-decoration-line: underline;
   text-decoration-style: dotted;
 }
-.link__sort:hover{
+
+.link__sort:hover {
   color: #81B3D2;
   opacity: 1;
 }
-.link__sort:active{
+
+.link__sort:active {
   color: #000000;
   text-decoration-line: none;
   opacity: 1;
@@ -71,7 +79,6 @@
   color: #81B3D2;
   text-decoration-line: none;
   opacity: 1;
-
 }
 
 .hotels {
@@ -84,12 +91,13 @@
   line-height: 26px;
   font-weight: 700;
   color: #000000;
-
   text-decoration: none;
 }
+
 .hotel__link:hover {
   color: #81B3D2;
 }
+
 .hotel__link:active {
   color: #000000;
   opacity: 0.3;
@@ -99,12 +107,13 @@
   font-weight: 700;
   color: #FFFFFF;
   background-color: #81B3D2;
-
   text-decoration: none;
 }
+
 .hotel__info:hover {
   background-color: #669EC0;
 }
+
 .hotel__info:active {
   background-color: #5496BD;
 }
