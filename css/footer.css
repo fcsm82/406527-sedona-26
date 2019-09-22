@@ -1,7 +1,20 @@
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hashtag__link {
+  font-size: 21px;
+}
+
 .social {
   list-style: none;
 }
 
 .social__link {
   font-size: 21px;
+}
+
+.copyright {
+  margin: 0;
 }

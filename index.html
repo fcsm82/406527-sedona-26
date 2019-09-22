@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title lang="en">Welcome to the gorgeous Sedona</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/control.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main_index.css">
-    <link rel="stylesheet" href="css/footer.css">
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <title lang="en">Welcome to the gorgeous Sedona</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/control.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main_index.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
 
 <body>
 
@@ -18,24 +19,28 @@
 
     <nav class="nav" aria-label="Меню сайта">
 
-      <a class="logo" href="index.html">
-        <img class="img logo__img" src="img/svg/logo-sedona.svg" width="138" height="71" alt="Логотип City of Sedona" >
-      </a>
+      <div class="container">
 
-      <ul class="menu">
-        <li class="menu__item">
-          <a class="link menu__link" href="#">Информация</a>
-        </li>
-        <li class="menu__item">
-          <a class="link menu__link" href="#">Фото и видео</a>
-        </li>
-        <li class="menu__item">
-          <a class="link menu__link" href="#map">Карта штата</a>
-        </li>
-        <li class="menu__item">
-          <a class="link menu__link" href="hotels.html">Гостиницы</a>
-        </li>
-      </ul>
+        <a class="logo" href="index.html">
+          <img class="img logo__img" src="img/svg/logo-sedona.svg" width="138" height="71" alt="Логотип City of Sedona">
+        </a>
+
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="link menu__link" href="#">Информация</a>
+          </li>
+          <li class="menu__item">
+            <a class="link menu__link" href="#">Фото и видео</a>
+          </li>
+          <li class="menu__item">
+            <a class="link menu__link" href="#map">Карта штата</a>
+          </li>
+          <li class="menu__item">
+            <a class="link menu__link" href="hotels.html">Гостиницы</a>
+          </li>
+        </ul>
+
+      </div>
 
     </nav>
 
@@ -44,151 +49,146 @@
   <main class="main-index">
 
     <section class="welcome">
-      <h1 class="visually-hidden" lang="en">Welcome to the gorgeous Sedona</h1>
-      <p class="visually-hidden" lang="en">Because the Grand Canyon sucks!</p>
-      <img class="img welcome__img" src="img/welcome.png" width="458" height="352" alt="Welcome to the gorgeous Sedona! Because the Grand Canyon sucks!">
+      <div class="container">
+        <h1 class="visually-hidden" lang="en">Welcome to the gorgeous Sedona</h1>
+        <p class="visually-hidden" lang="en">Because the Grand Canyon sucks!</p>
+        <img class="img welcome__img" src="img/welcome.png" width="458" height="352" alt="Welcome to the gorgeous Sedona! Because the Grand Canyon sucks!">
+      </div>
     </section>
 
     <section class="about">
 
-      <h2 class="about__heading">Седона — небольшой городок в Аризоне,  заслуживающий большего! </h2>
-      <p class="about__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      <div class="container">
 
-      <ul class="features">
+        <h2 class="about__heading">Седона — небольшой городок в Аризоне,  заслуживающий большего! </h2>
+        <p class="about__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 
-        <li class="features__item features__item--phasized">
+        <ul class="features">
 
-          <div class="container">
-            <h3 class="features__heading">Настоящий  городок</h3>
-            <span class="features__number">— №1 —</span>
-            <p class="features__text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-          </div>
+          <li class="features__item features__item--emphasized">
 
-          <div class="container">
-            <img class="img features__img" src="img/city.jpg" width="800" height="256" alt="Вид городка Седона">
-          </div>
+            <div class="wrapper">
 
-          <ul class="benefits">
+              <div class="wrapper__column">
+                <h3 class="features__heading">Настоящий  городок</h3>
+                <span class="features__number">— №1 —</span>
+                <p class="features__text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              </div>
 
-            <li class="benefits__item">
+              <div class="wrapper__column">
+                <img class="img features__img" src="img/city.jpg" width="800" height="256" alt="Вид городка Седона">
+              </div>
 
-              <div class="container">
+            </div>
+
+
+            <ul class="benefits">
+
+              <li class="benefits__item">
                 <h4 class="benefits__heading">Жильё</h4>
                 <p class="benefits__text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-              </div>
+              </li>
 
-            </li>
-
-            <li class="benefits__item">
-
-              <div class="container">
+              <li class="benefits__item">
                 <h4 class="benefits__heading">Еда</h4>
                 <p class="benefits__text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-              </div>
+              </li>
 
-            </li>
-
-            <li class="benefits__item">
-
-              <div class="container">
+              <li class="benefits__item">
                 <h4 class="benefits__heading">Сувениры</h4>
                 <p class="benefits__text">Не только китайского, но и местного производства!</p>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li class="features__item features__item--emphasized">
+
+            <div class="wrapper">
+
+              <div class="wrapper__column">
+                <h3 class="features__heading">Там есть  Мост дьявола</h3>
+                <span class="features__number">— №2 —</span>
+                <p class="features__text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
               </div>
 
-            </li>
+              <div class="wrapper__column">
+                <img class="img features__img" src="img/bridge.jpg" width="800" height="256" alt="Мост дьявола">
+              </div>
 
+            </div>
 
-          </ul>
+          </li>
 
-        </li>
-
-        <li class="features__item features__item--phasized">
-
-          <div class="container">
-            <h3 class="features__heading">Там есть  Мост дьявола</h3>
-            <span class="features__number">— №2 —</span>
-            <p class="features__text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-          </div>
-
-          <div class="container">
-            <img class="img features__img" src="img/bridge.jpg" width="800" height="256" alt="Мост дьявола">
-          </div>
-
-        </li>
-
-        <li class="features__item">
-
-          <div class="container">
+          <li class="features__item">
             <h3 class="features__heading">Небольшая  площадь</h3>
             <span class="features__number">— №3 —</span>
             <p class="features__text">Все достопримечательности находятся очень близко</p>
-          </div>
+          </li>
 
-        </li>
-
-        <li class="features__item">
-
-          <div class="container">
+          <li class="features__item">
             <h3 class="features__heading">Красивая  дорога</h3>
             <span class="features__number">— №4 —</span>
             <p class="features__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-          </div>
+          </li>
 
-        </li>
-
-        <li class="features__item">
-
-          <div class="container">
+          <li class="features__item">
             <h3 class="features__heading">Мало  туристов</h3>
             <span class="features__number">— №5 —</span>
             <p class="features__text">Большинство едет в гранд каньон и толпится там</p>
-          </div>
+          </li>
 
-        </li>
+        </ul>
 
-      </ul>
-
+      </div>
     </section>
 
     <section class="search">
 
-      <p class="text">
-        <span class="search__heading">Заинтересовались?</span><br>
-        Укажите предполагаемые даты поездки, <br>
-        и мы покажем вам лучшие предложения гостиниц в седоне
-      </p>
+      <div class="container">
 
-      <h2 class="visually-hidden">ПОИСК ГОСТИНИЦЫ В седоне</h2>
-      <button class="btn btn__search" type="button" name="search"><span class="btn__text">ПОИСК ГОСТИНИЦЫ В седоне</span></button>
+        <p class="text search__text">
+          <span class="search__heading">Заинтересовались?</span><br>
+          Укажите предполагаемые даты поездки, <br>
+          и мы покажем вам лучшие предложения гостиниц в седоне
+        </p>
 
-      <form class="form-search" action="https://echo.htmlacademy.ru" method="get">
+        <h2 class="visually-hidden">ПОИСК ГОСТИНИЦЫ В седоне</h2>
+        <button class="btn btn__search" type="button" name="search"><span class="btn__text">ПОИСК ГОСТИНИЦЫ В седоне</span></button>
 
-        <div class="input">
-          <label class="input__label" for="date-arrival">Дата заезда:</label>
-          <input class="input__field" type="text" name="date-arrival" id="date-arrival" value="" placeholder="24 апреля 2017">
-        </div>
+        <form class="form-search" action="https://echo.htmlacademy.ru" method="get">
 
-        <div class="input">
-          <label class="input__label" for="date-departure">Дата выезда:</label>
-          <input class="input__field" type="text" name="date-departure" id="date-departure" value="" placeholder="4 июля 2017">
-        </div>
+          <div class="input">
+            <label class="input__label" for="date-arrival">Дата заезда:</label>
+            <input class="input__field" type="text" name="date-arrival" id="date-arrival" value="" placeholder="24 апреля 2017">
+          </div>
 
-        <div class="input">
-          <label class="input__label" for="adults">Взрослые:</label>
-          <input class="input__field" type="number" name="adults" id="adults" value="" placeholder="2">
-        </div>
+          <div class="input">
+            <label class="input__label" for="date-departure">Дата выезда:</label>
+            <input class="input__field" type="text" name="date-departure" id="date-departure" value="" placeholder="4 июля 2017">
+          </div>
 
-        <div class="input">
-          <label class="input__label" for="child">Дети:</label>
-          <input class="input__field" type="number" name="child" id="child" value="" placeholder="0">
-        </div>
+          <div class="input">
+            <label class="input__label" for="adults">Взрослые:</label>
+            <input class="input__field" type="number" name="adults" id="adults" value="" placeholder="2">
+          </div>
 
-        <button class="btn btn__submit" type="submit"><span class="btn__text">Найти</span></button>
-      </form>
+          <div class="input">
+            <label class="input__label" for="child">Дети:</label>
+            <input class="input__field" type="number" name="child" id="child" value="" placeholder="0">
+          </div>
 
-      <h2 class="visually-hidden">г. Седона, штат Аризона, США</h2>
-      <p class="visually-hidden">Пересечение дорог 179 и 89А</p>
-      <iframe class="" id="map" title="Местоположение Седоны" src="https://maps.google.com/maps?width=1200&amp;height=473&amp;hl=en&amp;q=Sedona%2C%20AZ+(Sedona)&amp;ie=UTF8&amp;t=&amp;z=9&amp;iwloc=B&amp;output=embed" width="1200" height="473"></iframe>
+          <button class="btn btn__submit" type="submit"><span class="btn__text">Найти</span></button>
+        </form>
+
+        <h2 class="visually-hidden">г. Седона, штат Аризона, США</h2>
+        <p class="visually-hidden">Пересечение дорог 179 и 89А</p>
+        <iframe class="map" id="map" title="Местоположение Седоны" src="https://maps.google.com/maps?width=1200&amp;height=473&amp;hl=en&amp;q=Sedona%2C%20AZ+(Sedona)&amp;ie=UTF8&amp;t=&amp;z=9&amp;iwloc=B&amp;output=embed" width="1200"
+          height="473"></iframe>
+
+      </div>
+
     </section>
 
   </main>
@@ -196,36 +196,35 @@
   <footer class="footer">
 
     <div class="container">
-      <a class="link social__link" href="#" lang="en" aria-label="Хештег Седоны в Инстаграмме">#VisitSedona</a>
-    </div>
 
-    <div class="container">
+      <div class="hashtag">
+        <a class="link hashtag__link" href="#" lang="en" aria-label="Хештег Седоны в Инстаграмме">#VisitSedona</a>
+      </div>
 
-        <ul class="social">
+      <ul class="social">
 
-          <li class="social__item">
-            <a class="link social__link" href="#" aria-label="Седона в Твиттере"></a>
-          </li>
-          <li class="social__item">
-            <a class="link social__link" href="#" aria-label="Седона в Фейсбуке"></a>
-          </li>
-          <li class="social__item">
-            <a class="link social__link" href="#" aria-label="Седона на Ютубе"></a>
-          </li>
+        <li class="social__item">
+          <a class="link social__link" href="#" aria-label="Седона в Твиттере"></a>
+        </li>
+        <li class="social__item">
+          <a class="link social__link" href="#" aria-label="Седона в Фейсбуке"></a>
+        </li>
+        <li class="social__item">
+          <a class="link social__link" href="#" aria-label="Седона на Ютубе"></a>
+        </li>
 
-        </ul>
+      </ul>
 
-    </div>
+      <div class="copyrigth">
 
-    <div class="container">
+        <p class="text copyright__text">
+          Website by
+          <a class="link copyrigth__link" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Сайт HTML Academy">
+            <img class="copyrigth__logo" src="img/svg/logo-htmlacademy.svg" width="115" height="41" alt="Логотип html academy">
+          </a>
+        </p>
 
-      <p class="copyrigth">
-        Website by
-        <a class="link copyrigth__link" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Сайт HTML Academy">
-          <img class="copyrigth__logo" src="img/svg/logo-htmlacademy.svg" width="115" height="41" alt="Логотип html academy">
-        </a>
-      </p>
-
+      </div>
     </div>
 
   </footer>

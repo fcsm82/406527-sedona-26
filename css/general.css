@@ -1,19 +1,22 @@
 html,
 body {
-    min-width: 1200px;
-    margin: 0;
-    padding: 0;
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+}
 
-    font-family: 'PT Sans', 'Arial', sans-serif;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
-    text-align: center;
-    color: #333333;
-    text-transform: uppercase;
-
-    background-color: #ffffff;
+.img {
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
@@ -27,15 +30,31 @@ body {
   overflow: hidden;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  outline: 1px red dotted;
+}
+
+.wrapper {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  outline: 1px blue dotted;
+}
+
 .link {
   line-height: 26px;
   font-weight: 700;
   color: #000000;
   text-decoration: none;
 }
+
 .link:hover {
   color: #81B3D2;
 }
+
 .link:active {
   opacity: 0.3;
 }

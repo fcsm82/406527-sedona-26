@@ -1,45 +1,108 @@
-.welcome {
+.welcome .container {
   background-color: #9EDAFE;
   background-image: url("../img/backgrounds/sedona-background.jpg");
+}
+
+.welcome__img {
+  width: 458px;
+  margin-bottom: 138px;
+  padding-top: 76px;
 }
 
 .about {
   line-height: 26px;
 }
+
 .about__heading {
+  width: 470px;
+  margin: 0 auto;
+  margin-bottom: 28px;
+  padding-top: 58px;
+  padding-bottom: 0px;
   font-size: 21px;
   font-weight: 700;
 }
 
+.about__text {
+  margin: 0 auto;
+  padding-bottom: 51.5px;
+}
+
 .features {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
   list-style: none;
 }
-.features__heading {
-  font-size: 21px;
-  font-weight: 700;
+
+.wrapper .features__item:nth-last-child(-n+3) {
+  width: 238px;
 }
-.features__item--phasized {
+
+.features__item--emphasized {
   color: #FFFFFF;
   background-color: #81B3D2;
 }
 
+.features__item--emphasized:nth-child(2) .wrapper {
+  flex-direction: row-reverse;
+}
+
+.features .wrapper {
+  justify-content: space-around;
+}
+
+.features__heading {
+  font-size: 21px;
+  font-weight: 700;
+}
+
 .benefits {
+  display: flex;
+  justify-content: space-around;
   list-style: none;
   background-color: #FFFFFF;
 }
+
 .benefits__item {
+  width: 282px;
   color: #333333;
 }
+
 .benefits__heading {
   font-size: 21px;
   font-weight: 700;
 }
 
 .text {
+  margin: 0;
   line-height: 24px;
+}
+
+.search__text {
+  display: block;
+  margin: 0 auto;
+  padding-top: 55px;
+  width: 464px;
 }
 
 .search__heading {
   font-size: 30px;
   font-weight: 700;
+}
+
+.form-search {
+  box-sizing: border-box;
+  width: 565px;
+  margin: 0 auto;
+  padding-top: 55px;
+  padding-right: 55px;
+  padding-left: 55px;
+  border-bottom: 55px;
+  outline: 1px red dotted;
+}
+
+.map {
+  border: 0;
 }
