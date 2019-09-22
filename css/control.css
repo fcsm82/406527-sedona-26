@@ -43,6 +43,7 @@
 .btn__booking {
   font-size: 14px;
   line-height: 21px;
+  font-weight: 700;
   background-color: #766357;
 }
 
@@ -65,21 +66,6 @@
 .btn__show:hover {
   color: #000000;
   background-color: #FFFFFF;
-}
-
-.btn__booking {
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 700;
-  background-color: #766357;
-}
-
-.btn__booking:hover {
-  background-color: #604E43;
-}
-
-.btn__booking:active {
-  background-color: #503E33;
 }
 
 .input__label {
