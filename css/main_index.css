@@ -75,13 +75,37 @@
 }
 
 .benefits__item {
-  width: 282px;
+  width: 400px;
   min-height: 330px;
   color: #333333;
 }
 
+.benefits__item::before {
+  display: block;
+  content: "";
+}
+
+.benefits__item--lodging::before {
+  width: 75px;
+  height: 72px;
+  background-image: url("../img/svg/icon-1.svg");
+}
+
+.benefits__item--food::before {
+  width: 75px;
+  height: 70px;
+  background-image: url("../img/svg/icon-3.svg");
+}
+
+.benefits__item--souvenirs::before {
+  width: 64px;
+  height: 77px;
+  background-image: url("../img/svg/icon-2.svg");
+}
+
 .benefits__heading {
   margin: 0;
+  padding-top: 0px;
   font-size: 21px;
   font-weight: 700;
 }
