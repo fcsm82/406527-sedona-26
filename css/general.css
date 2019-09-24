@@ -52,6 +52,15 @@ fieldset {
   padding: 0;
 }
 
+.box--row {
+  flex-direction: row;
+  align-items: center;
+}
+
+.box--column {
+  flex-direction: column;
+}
+
 .column {
   width: 800px;
   height: 256px;
