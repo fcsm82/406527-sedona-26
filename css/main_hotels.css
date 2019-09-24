@@ -1,56 +1,99 @@
-.filter {
+.hotels-filter {
+  min-height: 217px;
   background-color: #497EA8;
   background-image: url("../img/backgrounds/filter-background.jpg");
 }
 
-.fieldset {
-  border: none;
+.filter {
+  display: flex;
+  flex-direction: row;
 }
 
-.fieldset__heading {
+.filter-group {
+  margin: 0;
+  padding: 0;
+}
+
+.filter .box {
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.filter-group__heading {
+  margin-bottom: 23px;
+  padding-top: 26px;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
   color: #FFFFFF;
 }
 
-.infrastructure,
-.accomodation {
+.filter>.filter-group:first-child {
+  margin-right: 85px;
+}
+
+.filter-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
-.infrastructure__label,
-.accomodation__label {
+.filter-list__label {
   font-size: 14px;
-  font-weight: 400;
   color: #FFFFFF;
 }
 
-.price {
+.filter-list__item {
+  margin-bottom: 25px;
+}
+
+.filter-price {
+  margin-left: auto;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   color: #333333;
 }
 
-.price__filter {
-  color: #FFFFFF;
+.search-result__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.sort {
-  list-style: none;
+.search-result__header .box {
+  align-items: baseline;
 }
 
-.results__heading {
+.search-result__header .box:last-child {
+  outline: 1px red dotted;
+  margin-left: auto;
+}
+
+.search-result__heading {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
 }
 
-.results__heading--sort {
+.search-result__heading--sort {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
+}
+
+.sort {
+  display: flex;
+  list-style: none;
+}
+
+.sort-list {
+  display: flex;
+  list-style: none;
 }
 
 .link__sort {
@@ -82,8 +125,23 @@
 }
 
 .hotels {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
   text-align: left;
   list-style: none;
+}
+
+.hotels__item {
+  display: flex;
+  min-height: 150px;
+  border-bottom: 1px #979797 solid;
+}
+
+.hotel__img {
+  width: 135px;
+  height: 90px;
 }
 
 .hotel__link {
@@ -118,7 +176,11 @@
   background-color: #5496BD;
 }
 
-.rating {
+.hotels__item .box:last-child {
+  margin-left: auto;
+}
+
+.hotel__rating {
   color: #666666;
   background-color: #F2F2F2;
 }
