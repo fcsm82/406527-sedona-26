@@ -14,7 +14,7 @@
   padding: 0;
 }
 
-.filter .box {
+.filter .wrapper {
   flex-direction: column;
   margin-left: auto;
 }
@@ -65,11 +65,11 @@
   align-items: center;
 }
 
-.search-result__header .box {
+.search-result__header .wrapper {
   align-items: baseline;
 }
 
-.search-result__header .box:last-child {
+.search-result__header .wrapper:last-child {
   outline: 1px red dotted;
   margin-left: auto;
 }
@@ -176,7 +176,7 @@
   background-color: #5496BD;
 }
 
-.hotels__item .box:last-child {
+.hotels__item .wrapper:last-child {
   margin-left: auto;
 }
 

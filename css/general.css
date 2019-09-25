@@ -45,19 +45,14 @@ fieldset {
   margin: 0 auto;
 }
 
-.box {
+.wrapper {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
 }
 
-.box--row {
-  flex-direction: row;
-  align-items: center;
-}
-
-.box--column {
+.wrapper-column {
   flex-direction: column;
 }
 
