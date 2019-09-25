@@ -82,19 +82,19 @@
   content: "";
 }
 
-.benefits__item--lodging::before {
+.benefits__icon-lodging::before {
   width: 75px;
   height: 72px;
   background-image: url("../img/svg/icon-1.svg");
 }
 
-.benefits__item--food::before {
+.benefits__icon-food::before {
   width: 75px;
   height: 70px;
   background-image: url("../img/svg/icon-3.svg");
 }
 
-.benefits__item--souvenirs::before {
+.benefits__icon-souvenir::before {
   width: 64px;
   height: 77px;
   background-image: url("../img/svg/icon-2.svg");
