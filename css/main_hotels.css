@@ -28,7 +28,7 @@
   color: #FFFFFF;
 }
 
-.filter>.filter-group:first-child {
+.filter > .filter-group:first-child {
   margin-right: 85px;
 }
 
@@ -70,7 +70,6 @@
 }
 
 .search-result__header .wrapper:last-child {
-  outline: 1px red dotted;
   margin-left: auto;
 }
 
@@ -125,11 +124,11 @@
 }
 
 .hotels {
+  flex-direction: column;
+  text-align: left;
   display: flex;
   margin: 0;
   padding: 0;
-  flex-direction: column;
-  text-align: left;
   list-style: none;
 }
 

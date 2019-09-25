@@ -11,16 +11,15 @@
 }
 
 .menu {
-  box-sizing: border-box;
-  width: 100%;
-  min-height: 56px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  /*justify-content: space-between;*/
+  box-sizing: border-box;
   flex-wrap: wrap;
+  width: 100%;
+  min-height: 56px;
   margin: 0;
-  padding: 0px;
+  padding: 0;
   list-style: none;
 }
 

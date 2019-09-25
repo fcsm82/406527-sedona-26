@@ -1,5 +1,5 @@
-html,
-body {
+body,
+html {
   min-width: 1200px;
   margin: 0;
   padding: 0;
@@ -14,11 +14,6 @@ body {
   background-color: #F2F2F2;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 fieldset {
   border: none;
 }
@@ -28,8 +23,8 @@ fieldset {
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: 0;
   padding: 0;
+  border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -48,8 +43,8 @@ fieldset {
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
   padding: 0;
+  list-style: none;
 }
 
 .wrapper-column {

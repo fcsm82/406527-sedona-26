@@ -1,8 +1,8 @@
 .footer .container {
   display: flex;
-  min-height: 120px;
   justify-content: space-around;
   align-items: center;
+  min-height: 120px;
 }
 
 .hashtag {
@@ -27,9 +27,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-right: 6px;
   width: 46px;
   height: 48px;
+  margin-right: 6px;
   font-size: 21px;
   background-color: #81B3D2;
 }
