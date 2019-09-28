@@ -1,4 +1,4 @@
-.nav .container {
+.nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +12,7 @@
 
 .menu {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   box-sizing: border-box;
   flex-wrap: wrap;
@@ -27,8 +27,8 @@
   width: 239px;
 }
 
-.menu__item:nth-child(2) {
-  margin-right: 244px;
+.menu__item:nth-child(3) {
+  margin-left: auto;
 }
 
 .menu__link--current {
