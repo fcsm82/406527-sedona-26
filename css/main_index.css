@@ -7,11 +7,16 @@
 .welcome__img {
   width: 456px;
   padding-top: 76px;
-  padding-bottom: 16px;
+  padding-bottom: 18px;
 }
 
-.welcome__decor {
-  margin-bottom: -6px;
+.welcome::after {
+  content: "";
+  display: block;
+  width: 1200px;
+  height: 57px;
+  margin: 0;
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='1200px' height='57px' viewBox='0 0 1200 57' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Index' transform='translate(-38.000000, -509.000000)' fill='%23FFFFFF' fill-rule='nonzero'%3E%3Cg id='intro' transform='translate(38.000000, -27.000000)'%3E%3Cg id='polygon' transform='translate(0.000000, 536.000000)'%3E%3Cpolygon id='Shape' points='0 57 0 0 250 24 250 0 600 57 950 0 950 24 1200 0 1200 57'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 .about {
