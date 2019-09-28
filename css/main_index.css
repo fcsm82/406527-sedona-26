@@ -115,24 +115,14 @@
   display: block;
   width: 464px;
   margin: 0 auto 44px;
-  padding-top: 12px;
 }
 
 .search__heading {
   display: block;
   margin-bottom: 6px;
+  padding-top: 58px;
   font-size: 30px;
   font-weight: 700;
-}
-
-.form-search {
-  box-sizing: border-box;
-  width: 565px;
-  margin: 0 auto;
-  padding-top: 55px;
-  padding-right: 55px;
-  padding-left: 55px;
-  border-bottom: 55px;
 }
 
 .map {
