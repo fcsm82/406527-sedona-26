@@ -1,8 +1,12 @@
 .footer {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 120px;
+  background-color: rgba(255,255,255, 0.9);
+
+  z-index: 1;
 }
 
 .hashtag {
@@ -27,6 +31,7 @@
   padding-top: 2px;
   padding-left: 5px;
   list-style: none;
+
 }
 
 .social__link {
@@ -95,6 +100,7 @@
   min-height: 41px;
   box-sizing: border-box;
   padding-top: 8px;
+
 }
 
 .copyright__text {
