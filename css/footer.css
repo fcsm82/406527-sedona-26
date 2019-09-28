@@ -1,4 +1,4 @@
-.footer .container {
+.footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -6,7 +6,10 @@
 }
 
 .hashtag {
+  width: 400px;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 .hashtag__link {
@@ -16,9 +19,13 @@
 .social {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
+  width: 400px;
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding-top: 8px;
+  padding-left: 6px;
   list-style: none;
 }
 
@@ -48,5 +55,26 @@
 }
 
 .copyright {
-  margin: 0;
+  width: 400px;
+  min-height: 41px;
+  box-sizing: border-box;
+  padding-top: 8px;
+}
+.copyright__text {
+  display: block;
+  box-sizing: border-box;
+
+}
+
+.copyright__link {
+  display: inline-block;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  padding-top: 6px;
+  padding-left: 4px;
+  vertical-align: middle;
+}
+.copyright__logo {
+width: 115px;
+height: 41px;
 }
