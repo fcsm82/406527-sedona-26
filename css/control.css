@@ -74,29 +74,3 @@
   color: #000000;
   background-color: #FFFFFF;
 }
-
-.input__label {
-  font-weight: 700;
-  color: #000000;
-}
-
-.input__field {
-  font-weight: 700;
-  color: #000000;
-  text-transform: uppercase;
-  background-color: #F2F2F2;
-}
-
-.input__field:hover {
-  background-color: #EBEBEB;
-}
-
-.input__field:focus {
-  background-color: #FFFFFF;
-}
-
-.input__field::placeholder {
-  font-weight: 700;
-  color: #000000;
-  text-transform: uppercase;
-}
