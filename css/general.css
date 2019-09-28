@@ -1,6 +1,7 @@
 body,
 html {
   min-width: 1200px;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', 'Arial', sans-serif;
@@ -12,6 +13,11 @@ html {
   color: #333333;
   text-transform: uppercase;
   background-color: #F2F2F2;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 fieldset {
@@ -41,16 +47,10 @@ fieldset {
   margin: 0 auto;
 }
 
+.text {
   margin: 0;
-  padding: 0;
+  line-height: 24px;
 }
-
-.column--emphasized {
-  width: 400px;
-  color: #FFFFFF;
-  background-color: #81B3D2;
-}
-
 .link {
   line-height: 26px;
   font-weight: 700;
@@ -58,7 +58,8 @@ fieldset {
   text-decoration: none;
 }
 
-.link:hover {
+.link:hover,
+.link:focus {
   color: #81B3D2;
 }
 
