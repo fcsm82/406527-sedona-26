@@ -82,12 +82,16 @@
   background-repeat: no-repeat;
 }
 
-.social__link:hover {
+.social__link:hover,
+.social__link:focus {
   background-color: #669EC0;
 }
 
 .social__link:active {
   background-color: #5496BD;
+}
+.social__twitter:active::after {
+  opacity: 0.3;
 }
 
 .copyright {
