@@ -1,18 +1,28 @@
 .btn {
-  font-size: 21px;
-  line-height: 26px;
   font-weight: 700;
   color: #FFFFFF;
   text-transform: uppercase;
   border: none;
 }
 
-.btn:hover {
+.btn--big {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.btn--small {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.btn:hover,
+.btn:focus {
   cursor: pointer;
 }
+
 .btn:active .btn__text,
 .hotel__info:active .btn__text {
-  opacity: 0.3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .btn__search {
@@ -36,7 +46,8 @@
   background-color: #81B3D2;
 }
 
-.btn__submit:hover {
+.btn__submit:hover,
+.btn__submit:focus {
   background-color: #669EC0;
 }
 
@@ -48,14 +59,13 @@
   box-sizing: border-box;
   width: 140px;
   height: 27px;
-  font-size: 14px;
   line-height: 21px;
-  font-weight: 700;
   vertical-align: top;
   background-color: #766357;
 }
 
-.btn__booking:hover {
+.btn__booking:hover,
+.btn__booking:focus {
   background-color: #604E43;
 }
 
@@ -65,17 +75,25 @@
 
 .btn__show {
   display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+
   font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
-  background-color: transparent;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
-.btn__show:hover {
+.btn__show:hover,
+.btn__show:focus {
   color: #000000;
-  background-color: #FFFFFF;
+  background: #ffffff;
 }
-
 .btn__down,
 .btn__up {
   background-color: transparent;
