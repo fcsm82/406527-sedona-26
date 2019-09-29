@@ -88,11 +88,6 @@
 
 .social__link:active {
   background-color: #5496BD;
-  opacity: 1;
-}
-
-.social__link:active .social__icon {
-  opacity: 0.3;
 }
 
 .copyright {

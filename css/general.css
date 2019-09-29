@@ -64,6 +64,7 @@ fieldset {
   color: #81B3D2;
 }
 
-.link:active {
+.link:active,
+.link:active::after {
   opacity: 0.3;
 }
