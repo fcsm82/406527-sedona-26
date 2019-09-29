@@ -118,24 +118,3 @@
 .link:active::after {
   opacity: 0.3;
 }
-
-.link__sort {
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.3);
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: #81B3D2;
-}
-
-.link__sort:active {
-  color: #000000;
-  text-decoration-line: none;
-  opacity: 1;
-}
-
-.link__sort--current {
-  color: #81B3D2;
-  text-decoration-line: none;
-}
