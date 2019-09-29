@@ -185,8 +185,16 @@
             </div>
 
             <div class="search-result__buttons">
-              <button type="button" name="down"></button>
-              <button type="button" name="up"></button>
+              <button class="btn btn__down" type="button" name="down">
+                <svg width="11" height="10" viewBox="0 0 11 10" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMinYMin">
+	                <use xlink:href="#arrow-up"></use>
+                </svg>
+              </button>
+              <button class="btn btn__up" type="button" name="up">
+                <svg width="11" height="10" viewBox="0 0 11 10" xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMinYMin">
+	                <use xlink:href="#arrow-down"></use>
+                </svg>
+              </button>
             </div>
 
           </header>
@@ -335,6 +343,12 @@
 	<defs>
 		<g id="img-star">
 			<path xmlns="http://www.w3.org/2000/svg" fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/>
+		</g>
+    <g id="arrow-up">
+			<path xmlns="http://www.w3.org/2000/svg" fill="#cacaca" d="M5.5 0L0 10h11z"/>
+		</g>
+		<g id="arrow-down">
+			<path xmlns="http://www.w3.org/2000/svg" fill="#81b3d2" d="M5.5 10L0 0h11"/>
 		</g>
 	</defs>
 </svg>

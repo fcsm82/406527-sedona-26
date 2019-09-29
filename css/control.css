@@ -51,6 +51,7 @@
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
+  vertical-align: top;
   background-color: #766357;
 }
 
@@ -73,4 +74,11 @@
 .btn__show:hover {
   color: #000000;
   background-color: #FFFFFF;
+}
+
+.btn__down,
+.btn__up {
+  background-color: transparent;
+  padding: 0;
+  margin-left: 10px;
 }
