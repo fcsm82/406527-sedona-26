@@ -52,19 +52,3 @@ fieldset {
   margin: 0;
   line-height: 24px;
 }
-.link {
-  line-height: 26px;
-  font-weight: 700;
-  color: #000000;
-  text-decoration: none;
-}
-
-.link:hover,
-.link:focus {
-  color: #81B3D2;
-}
-
-.link:active,
-.link:active::after {
-  opacity: 0.3;
-}

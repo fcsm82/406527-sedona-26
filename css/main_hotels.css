@@ -46,34 +46,6 @@
   margin-right: 0;
 }
 
-.link__sort {
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 400;
-  color: #000000;
-  opacity: 0.3;
-  text-decoration-color: #81B3D2;
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-}
-
-.link__sort:hover {
-  color: #81B3D2;
-  opacity: 1;
-}
-
-.link__sort:active {
-  color: #000000;
-  text-decoration-line: none;
-  opacity: 1;
-}
-
-.link__sort--current {
-  color: #81B3D2;
-  text-decoration-line: none;
-  opacity: 1;
-}
-
 .hotels {
   flex-direction: column;
   text-align: left;
@@ -107,7 +79,6 @@
 }
 
 .hotel__name {
-
   margin: -3px 0 0 0;
 }
 
