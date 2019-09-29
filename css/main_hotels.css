@@ -153,6 +153,7 @@
 
   font-weight: 700;
   color: #FFFFFF;
+  vertical-align: top;
   background-color: #81B3D2;
   text-decoration: none;
 }
@@ -166,6 +167,7 @@
 }
 
 .hotel-class {
+  text-align: right;
   align-self: stretch;
   width: 110px;
 
@@ -174,10 +176,14 @@
 }
 
 .hotel-class__stars {
+  font: 0;
+  display: inline-block;
+  margin-right: 2px;
   margin-bottom: 42px;
+
 }
 .hotel-class__rating {
-  display: inline-block;
+  display: block;
   vertical-align: baseline;
   box-sizing: border-box;
   width: 110px;
