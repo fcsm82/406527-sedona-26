@@ -164,8 +164,9 @@
 
 .btn__show {
   display: block;
-  margin: 0 auto;
-  padding: 6px 35px;
+  box-sizing: border-box;
+  margin: 0 auto 0 84px;
+  padding: 6px 33px 6px 36px;
 
   font-size: 14px;
   line-height: 20px;
