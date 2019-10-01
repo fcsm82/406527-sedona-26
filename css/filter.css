@@ -53,15 +53,18 @@
   position: absolute;
   width: 27px;
   height: 23px;
+  box-sizing: border-box;
   margin-left: -40px;
   background-image: url("../img/svg/checkbox-off.svg");
   background-repeat: no-repeat;
+
 }
 
 .filter-list__label {
   font-size: 14px;
   color: #FFFFFF;
   padding-left: 40px;
+  cursor: pointer;
 }
 
 .filter-list__input {
