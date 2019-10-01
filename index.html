@@ -154,22 +154,26 @@
             <div class="input-wrap input-wrap--big">
               <label class="form-search__label" for="date-arrival">Дата заезда:</label>
               <input class="form-search__field form-search__field--big" type="text" name="date-arrival" id="date-arrival" value="" placeholder="24 апреля 2017">
+              <button class="btn btn__calendar" type="button" name="calendar"></button>
             </div>
 
             <div class="input-wrap input-wrap--big">
               <label class="form-search__label" for="date-departure">Дата выезда:</label>
               <input class="form-search__field form-search__field--big" type="text" name="date-departure" id="date-departure" value="" placeholder="4 июля 2017">
+              <button class="btn btn__calendar" type="button" name="calendar"></button>
             </div>
 
-            <div class="input-wrap">
-              <div class="input-wrap input-wrap--small">
-                <label class="form-search__label" for="adults">Взрослые:</label>
-                <input class="form-search__field form-search__field--small" type="number" name="adults" id="adults" value="" placeholder="2">
-              </div>
-              <div class="input-wrap input-wrap--small">
-                <label class="form-search__label" for="child">Дети:</label>
-                <input class="form-search__field form-search__field--small" type="number" name="child" id="child" value="" placeholder="0">
-              </div>
+            <div class="input-wrap input-wrap--small">
+              <label class="form-search__label" for="adults">Взрослые:</label>
+              <input class="form-search__field form-search__field--small" type="number" name="adults" id="adults" value="" placeholder="2">
+              <button class="btn btn__minus" type="button" name="decrease"></button>
+              <button class="btn btn__plus" type="button" name="increase"></button>
+            </div>
+            <div class="input-wrap input-wrap--small">
+              <label class="form-search__label" for="child">Дети:</label>
+              <input class="form-search__field form-search__field--small" type="number" name="child" id="child" value="" placeholder="0">
+              <button class="btn btn__minus" type="button" name="decrease"></button>
+              <button class="btn btn__plus" type="button" name="increase"></button>
             </div>
 
             <button class="btn btn--big btn__submit" type="submit">
