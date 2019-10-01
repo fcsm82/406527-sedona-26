@@ -190,6 +190,23 @@
   margin-left: 10px;
 }
 
+.btn__down:hover path,
+.btn__down:focus path,
+.btn__up:hover path,
+.btn__up:focus path {
+  fill: #000000;
+}
+
+.btn__down:active path,
+.btn__up:active path {
+  fill: #81B3D2;
+}
+
+.btn__down--active path,
+.btn__up--active path {
+  fill: #81B3D2;
+}
+
 .link {
   line-height: 26px;
   font-weight: 700;
