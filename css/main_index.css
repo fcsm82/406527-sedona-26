@@ -116,10 +116,6 @@
   padding-top: 0;
 }
 
-.features__text {
-
-}
-
 .benefits {
   position: relative;
   display: flex;
@@ -207,4 +203,5 @@
   height: 593px;
   border: 0;
   margin-bottom: -127px;
+  background-image: url("../img/map.png");
 }
