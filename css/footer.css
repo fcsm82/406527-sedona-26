@@ -1,7 +1,12 @@
 .footer {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-height: 120px;
   background-color: rgba(255,255,255, 0.9);
@@ -10,6 +15,7 @@
 
 .hashtag {
   width: 400px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -20,11 +26,21 @@
 }
 
 .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 400px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding-top: 2px;
@@ -48,6 +64,7 @@
   display: block;
   width: 17px;
   height: 17px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 auto;
   background-image: url("data:image/svg+xml,%0A%3Csvg width='17px' height='15px' viewBox='0 0 17 15' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Index' transform='translate(-579.000000, -2695.000000)' fill='%23FFFFFF'%3E%3Cg id='footer' transform='translate(40.000000, 2642.000000)'%3E%3Cg id='twitter' transform='translate(539.000000, 52.000000)'%3E%3Cg id='Shape'%3E%3Cpath d='M10.95,1.144 C12.635,0.648 13.934,1.414 14.527,2.323 C15.2,2.092 15.858,1.842 16.538,1.615 C16.5248923,2.3013655 16.2116836,2.94751829 15.681,3.383 C16.366,3.553 16.985,2.892 16.985,2.892 C16.816,3.892 15.979,4.68 15.422,4.916 C15.191,11.666 12.247,16.133 5.345,15.998 L4.899,15.998 C4.489,15.998 0.735,15.538 0.001,14.111 C2.272,14.307 3.894,13.689 4.694,12.934 C3.734,12.634 2.015,12.457 1.715,9.984 C2.064,10.09 2.279,10.212 2.905,10.103 C1.705,9.247 0.374,8.53 0.448,6.33 C0.733,6.658 1.515,6.866 1.788,6.802 C1.085,6.561 -0.182,3.442 0.894,1.85 C2.712,3.704 4.629,5.456 8.046,5.623 C8.254,3.33 9.183,1.793 10.95,1.144 Z' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -61,6 +78,7 @@
   display: block;
   width: 12px;
   height: 22px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 auto;
   background-image: url("data:image/svg+xml,%0A%3Csvg width='12px' height='22px' viewBox='0 0 12 22' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Index' transform='translate(-633.000000, -2691.000000)' fill='%23FFFFFF'%3E%3Cg id='footer' transform='translate(40.000000, 2642.000000)'%3E%3Cg id='fb-icon' transform='translate(593.000000, 49.000000)'%3E%3Cg id='Shape'%3E%3Cpath d='M12,4 L12,0 L8,0 C5.790861,0 4,1.790861 4,4 L4,8 L0,8 L0,12 L4,12 L4,22 L8,22 L8,12 L12,12 L12,8 L8,8 L8,4 L12,4 Z' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -74,6 +92,7 @@
   display: block;
   width: 20px;
   height: 16px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 auto;
   background-image: url("data:image/svg+xml,%0A%3Csvg width='20px' height='16px' viewBox='0 0 20 16' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Index' transform='translate(-681.000000, -2694.000000)' fill='%23FFFFFF'%3E%3Cg id='footer' transform='translate(40.000000, 2642.000000)'%3E%3Cg id='youtube' transform='translate(641.000000, 52.000000)'%3E%3Cg id='Shape'%3E%3Cpath d='M17,0 L3,0 C1.35,0 0,1.35 0,3 L0,13 C0,14.65 1.35,16 3,16 L17,16 C18.65,16 20,14.65 20,13 L20,3 C20,1.35 18.65,0 17,0 Z M6.027,11.998 L6.027,4.002 L15.014,8 L6.027,11.998 L6.027,11.998 Z' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -96,18 +115,21 @@
 .copyright {
   width: 400px;
   min-height: 41px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 8px;
 }
 
 .copyright__text {
   display: block;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .copyright__link {
   display: inline-block;
   vertical-align: baseline;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-left: 4px;
   vertical-align: middle;

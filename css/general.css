@@ -12,8 +12,17 @@ body {
   background-color: #F2F2F2;
 }
 
-html { box-sizing: border-box; }
-*, *::before, *::after { box-sizing: inherit; }
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
 
 img {
   width: 100%;
@@ -46,6 +55,7 @@ input[type=number] {
   width: 1200px;
   margin: 0 auto;
   background-color: #FFFFFF;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
   box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 

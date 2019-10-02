@@ -5,7 +5,12 @@
 }
 
 .filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
 }
 
@@ -23,6 +28,9 @@
 }
 
 .filter .wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin-left: auto;
 }
@@ -38,8 +46,15 @@
 }
 
 .filter-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
   margin: 0;
   padding: 0;
@@ -54,6 +69,7 @@
   position: absolute;
   width: 27px;
   height: 23px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin-left: -40px;
   background-image: url("../img/svg/checkbox-off.svg");
@@ -69,6 +85,7 @@
 
 .filter-list__input {
   position: absolute;
+  -moz-appearance: none;
   appearance: none;
   -webkit-appearance: none;
 }
@@ -119,7 +136,11 @@
 
 .price-controls {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   height: 37px;
   margin-bottom: 20px;
@@ -136,6 +157,7 @@
   width: 2px;
   height: 22px;
   background: #ffffff;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -150,6 +172,7 @@
 .price-controls .max-price,
 .price-controls .min-price {
   width: 156px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -194,6 +217,7 @@
   background: #ababab;
   border: 10px solid #ffffff;
   border-radius: 50%;
+  -webkit-box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
 }

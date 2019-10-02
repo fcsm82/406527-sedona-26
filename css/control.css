@@ -35,7 +35,10 @@
 .btn__search:hover {
   background-color: #604E43;
 }
-
+/*.btn__search:hover + .form-search {
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(0);
+}*/
 .btn__search:active {
   background-color: #503E33;
 }
@@ -85,6 +88,7 @@
 .btn__minus {
   position: absolute;
   right: 80px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 38px;
   height: 38px;
@@ -115,6 +119,7 @@
 .btn__plus {
   position: absolute;
   right: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 38px;
   height: 38px;
@@ -141,6 +146,7 @@
 }
 
 .btn__booking {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 140px;
   height: 27px;
@@ -160,6 +166,7 @@
 
 .btn__show {
   display: block;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 auto 0 84px;
   padding: 6px 33px 6px 36px;
