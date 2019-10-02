@@ -49,8 +49,6 @@
 }
 
 .features__item {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   width: 400px;
   min-height: 256px;
   background-color: #EEEEEE;
@@ -94,8 +92,6 @@
 }
 
 .features__column {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   width: 400px;
   height: 256px;
   margin: 0;
@@ -144,8 +140,6 @@
 .benefits__item {
   width: 400px;
   min-height: 330px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   color: #333;
 }
 
@@ -190,8 +184,6 @@
 }
 
 .benefits__text {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   margin: 0;
   padding-left: 73px;
   padding-right: 75px;

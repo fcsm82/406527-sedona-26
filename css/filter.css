@@ -69,8 +69,6 @@
   position: absolute;
   width: 27px;
   height: 23px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   margin-left: -40px;
   background-image: url("../img/svg/checkbox-off.svg");
   background-repeat: no-repeat;
@@ -172,8 +170,6 @@
 .price-controls .max-price,
 .price-controls .min-price {
   width: 156px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 .price-controls .min-price {

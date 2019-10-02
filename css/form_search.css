@@ -3,8 +3,6 @@
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   width: 565px;
   height: 395px;
   margin: 0 0 0 calc(50% - 282.5px);
@@ -28,8 +26,6 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   margin: 0 0 29px;
 }
 
@@ -58,8 +54,6 @@
 }
 
 .form-search__field {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   height: 38px;
   margin: 0;
   color: #000000;
