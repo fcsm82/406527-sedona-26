@@ -1,7 +1,4 @@
-body,
-html {
-  min-width: 1200px;
-  box-sizing: border-box;
+body {
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', 'Arial', sans-serif;
@@ -14,6 +11,9 @@ html {
   text-transform: uppercase;
   background-color: #F2F2F2;
 }
+
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
 
 img {
   width: 100%;
