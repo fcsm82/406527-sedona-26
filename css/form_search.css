@@ -5,7 +5,7 @@
   position: absolute;
   width: 565px;
   height: 395px;
-  margin: 0 0 0 318px;
+  margin: 0 0 0 calc(50% - 282.5px);
   padding: 56px 54px 55px 55px;
   background-color: #FFFFFF;
   box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
