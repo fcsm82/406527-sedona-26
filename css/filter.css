@@ -121,7 +121,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  height: 32px;
+  height: 37px;
   margin-bottom: 20px;
   font-size: 0;
   border: 2px solid #ffffff;
@@ -192,7 +192,7 @@
   width: 4px;
   height: 4px;
   background: #ababab;
-  border: 8px solid #ffffff;
+  border: 10px solid #ffffff;
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
