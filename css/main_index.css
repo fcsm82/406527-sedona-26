@@ -86,7 +86,7 @@
   width: 400px;
   height: 256px;
   margin: 0;
-  padding: 0 60px 0 60px;
+  padding: 0 60px;
 }
 
 .features__item .features__column:nth-child(1) {

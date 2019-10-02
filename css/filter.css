@@ -57,7 +57,6 @@
   margin-left: -40px;
   background-image: url("../img/svg/checkbox-off.svg");
   background-repeat: no-repeat;
-
 }
 
 .filter-list__label {
@@ -101,23 +100,19 @@
   font-weight: 400;
   color: #FFFFFF;
 }
-
 /* Range */
 .filter-range {
   width: 318px;
-  margin: 28px 0 0 auto; /* для демо */
-
+  margin: 28px 0 0 auto;
+  /* для демо */
   color: #ffffff;
-
 }
 
 .filter-range__title {
   margin-bottom: 9px;
   padding-left: 3px;
-
   font-weight: 700;
   font-size: 16px;
-
   text-align: left;
 }
 
@@ -125,12 +120,9 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-
   height: 32px;
   margin-bottom: 20px;
-
   font-size: 0;
-
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
@@ -140,74 +132,64 @@
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 2px;
   height: 22px;
-
   background: #ffffff;
   transform: translate(-50%, -50%);
 }
 
 .price-controls label {
   display: inline-block;
-
   font-size: 14px;
   line-height: 30px;
   vertical-align: top;
-
   cursor: pointer;
 }
 
-.price-controls .min-price,
-.price-controls .max-price {
+.price-controls .max-price,
+.price-controls .min-price {
   width: 156px;
   box-sizing: border-box;
 }
+
 .price-controls .min-price {
   padding-left: 46px;
 }
+
 .price-controls .max-price {
   padding-left: 25px;
 }
 
-
 .price-controls input {
   width: 50px;
   margin: 0;
-
   color: inherit;
   font: inherit;
-
   background: none;
   border: none;
 }
 
 .filter-range__controls {
   position: relative;
-
   margin-bottom: 32px;
 }
 
 .filter-range__controls .filter-range__scale {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
 
 .filter-range__controls .filter-range__bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 
 .filter-range__toggle {
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;

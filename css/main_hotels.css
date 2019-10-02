@@ -101,7 +101,7 @@
 }
 
 .hotel__name {
-  margin: -3px 0 0 0;
+  margin: -3px 0 0;
 }
 
 .hotel__text {
@@ -118,7 +118,6 @@
   width: 96px;
   display: inline-block;
   vertical-align: baseline;
-
 }
 
 .hotel__link {
