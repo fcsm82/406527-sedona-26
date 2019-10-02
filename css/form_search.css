@@ -74,6 +74,10 @@
   background-color: #FFFFFF;
 }
 
+.form-search__field--big:focus {
+  padding-left: 11px;
+}
+
 .form-search__field::placeholder {
   color: #000000;
   opacity: 1;
