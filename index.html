@@ -165,15 +165,20 @@
 
             <div class="input-wrap input-wrap--small">
               <label class="form-search__label" for="adults">Взрослые:</label>
-              <input class="form-search__field form-search__field--small" type="number" name="adults" id="adults" value="" placeholder="2">
-              <button class="btn btn__minus" type="button" name="decrease"></button>
-              <button class="btn btn__plus" type="button" name="increase"></button>
+              <div class="field-wrap">
+                <button class="btn btn__minus" type="button" name="decrease"></button>
+                <input class="form-search__field form-search__field--small" type="number" name="adults" id="adults" value="" placeholder="2">
+                <button class="btn btn__plus" type="button" name="increase"></button>
+              </div>
+
             </div>
             <div class="input-wrap input-wrap--small">
               <label class="form-search__label" for="child">Дети:</label>
-              <input class="form-search__field form-search__field--small" type="number" name="child" id="child" value="" placeholder="0">
-              <button class="btn btn__minus" type="button" name="decrease"></button>
-              <button class="btn btn__plus" type="button" name="increase"></button>
+              <div class="field-wrap">
+                <button class="btn btn__minus" type="button" name="decrease"></button>
+                <input class="form-search__field form-search__field--small" type="number" name="child" id="child" value="" placeholder="0">
+                <button class="btn btn__plus" type="button" name="increase"></button>
+              </div>
             </div>
 
             <button class="btn btn--big btn__submit" type="submit">
