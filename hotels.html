@@ -6,12 +6,7 @@
     <title lang="en">Welcome to the gorgeous Sedona</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/control.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main_hotels.css">
-    <link rel="stylesheet" href="css/filter.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
 
   <body>
@@ -49,8 +44,7 @@
 
           <h2 class="visually-hidden">Параметры поиска жилья</h2>
 
-          <div class="page-container">
-            <form class="filter" action="https://echo.htmlacademy.ru" method="get">
+          <form class="filter" action="https://echo.htmlacademy.ru" method="get">
               <fieldset class="filter-group">
 
                 <legend class="filter-group__heading">Инфраструктура:</legend>
@@ -58,7 +52,6 @@
                 <ul class="filter-list">
 
                   <li class="filter-list__item">
-
                     <label class="filter-list__label">
                       <input class="filter-list__input visually-hidden" type="checkbox" name="swimpool" checked="checked">
                       <span class="filter-list__checkbox"></span>
@@ -67,7 +60,6 @@
                   </li>
 
                   <li class="filter-list__item">
-
                     <label class="filter-list__label">
                       <input class="filter-list__input visually-hidden" type="checkbox" name="parking">
                       <span class="filter-list__checkbox"></span>
@@ -76,7 +68,6 @@
                   </li>
 
                   <li class="filter-list__item">
-
                     <label class="filter-list__label" lang="en">
                       <input class="filter-list__input visually-hidden" type="checkbox" name="wifi">
                       <span class="filter-list__checkbox"></span>
@@ -144,13 +135,12 @@
               </div>
 
             </form>
-          </div>
 
         </section>
 
         <section class="search-result">
 
-          <div class="page-container">
+
             <header class="search-result__header">
 
               <h2 class="visually-hidden">Результат поиска гостиниц</h2>
@@ -195,7 +185,7 @@
 
             </header>
 
-          </div>
+
           <ul class="hotels">
 
             <li class="hotels__item">
@@ -207,7 +197,7 @@
                   <a class="link hotel__link" href="#" lang="en">Amara Resort & Spa</a>
                 </h3>
 
-                <p class="text hotel__text">Гостиница<span class="hotel__rate">От 4000 Р.</span></p>
+                <p class="hotel__text">Гостиница<span class="hotel__rate">От 4000 Р.</span></p>
                 <a class="hotel__info" href="#" aria-label="Подробнее">Подробнее</a>
                 <button class="btn btn--small btn__booking" type="button" name="button">
                   <span class="btn__text">Забронировать</span></button>
@@ -241,7 +231,7 @@
                   <a class="link hotel__link" href="" lang="en">Desert Quail Inn</a>
                 </h3>
 
-                <p class="text hotel__text">Мотель<span class="hotel__rate">От 3000 Р.</span></p>
+                <p class="hotel__text">Мотель<span class="hotel__rate">От 3000 Р.</span></p>
 
                 <a class="hotel__info" href="#">Подробнее</a>
                 <button class="btn btn--small btn__booking" type="button" name="button">
@@ -274,7 +264,7 @@
                   <a class="link hotel__link" href="#" lang="en">Villas at Poco Diablo</a>
                 </h3>
 
-                <p class="text hotel__text">Апартаменты<span class="hotel__rate">От 2000 Р.</span></p>
+                <p class="hotel__text">Апартаменты<span class="hotel__rate">От 2000 Р.</span></p>
 
                 <a class="hotel__info" href="#">
                   <span class="btn__text">Подробнее</span></a>
@@ -321,7 +311,7 @@
 
           <div class="copyright">
 
-            <p class="text copyright__text">
+            <p class="copyright__text">
               Website by
               <a class="copyright__link" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Сайт HTML Academy"></a>
             </p>
@@ -330,7 +320,7 @@
 
         </footer>
       </main>
-    </div>
+
     <svg display="none">
       <defs>
         <g id="img-star">

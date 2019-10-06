@@ -6,12 +6,7 @@
     <title lang="en">Welcome to the gorgeous Sedona</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/control.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main_index.css">
-    <link rel="stylesheet" href="css/form_search.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
 
   <body>
@@ -138,7 +133,7 @@
 
         <section class="search">
 
-          <p class="text search__text">
+          <p class="search__text">
             <span class="search__heading">Заинтересовались?</span><br>
             Укажите предполагаемые даты поездки,
             <br>
@@ -146,10 +141,12 @@
           </p>
 
           <h2 class="visually-hidden">ПОИСК ГОСТИНИЦЫ В седоне</h2>
-          <button class="btn btn--big btn__search" type="button" name="search">
-            <span class="btn__text">ПОИСК ГОСТИНИЦЫ В седоне</span></button>
+          <a class="btn btn--big btn__search" href="form-search.html">
+            <span class="btn__text">ПОИСК ГОСТИНИЦЫ В седоне</span>
+          </a>
 
-          <form class="form-search" action="https://echo.htmlacademy.ru" method="get">
+          <div class="form-wrap">
+            <form class="form-search" action="https://echo.htmlacademy.ru" method="get">
 
             <div class="input-wrap input-wrap--big">
               <label class="form-search__label" for="date-arrival">Дата заезда:</label>
@@ -184,10 +181,14 @@
             <button class="btn btn--big btn__submit" type="submit">
               <span class="btn__text">Найти</span></button>
           </form>
+          </div>
 
           <h2 class="visually-hidden">г. Седона, штат Аризона, США</h2>
           <p class="visually-hidden">Пересечение дорог 179 и 89А</p>
-          <iframe class="map" id="map" title="Местоположение Седоны" src="https://maps.google.com/maps?width=1200&amp;height=473&amp;hl=en&amp;q=Sedona%2C%20AZ+(Sedona)&amp;ie=UTF8&amp;t=&amp;z=9&amp;iwloc=B&amp;output=embed" width="1200" height="474"></iframe>
+          <div class="map">
+            <iframe id="map" title="Местоположение Седоны" src="https://maps.google.com/maps?width=1200&amp;height=473&amp;hl=en&amp;q=Sedona%2C%20AZ+(Sedona)&amp;ie=UTF8&amp;t=&amp;z=9&amp;iwloc=B&amp;output=embed" width="1200" height="474"></iframe>
+          </div>
+
 
         </section>
 
@@ -215,7 +216,7 @@
 
         <div class="copyright">
 
-          <p class="text copyright__text">
+          <p class="copyright__text">
             Website by
             <a class="link copyright__link" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Сайт HTML Academy"></a>
           </p>
@@ -224,5 +225,6 @@
 
       </footer>
     </div>
+    <script src="js/form.min.js"></script>
   </body>
 </html>
