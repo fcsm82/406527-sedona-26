@@ -57,9 +57,10 @@
 
             <li class="features__item features__item--big">
               <div class="features__column features__column--emphasized">
-                <h3 class="features__heading">Настоящий<br>городок</h3>
+                <h3 class="features__heading">Настоящий городок</h3>
                 <span class="features__number">— №1 —</span>
                 <p class="features__text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+
               </div>
 
               <div class="features__column features__column--big">
@@ -104,25 +105,19 @@
             </li>
 
             <li class="features__item">
-              <h3 class="features__heading">Небольшая
-                <br>
-                площадь</h3>
+              <h3 class="features__heading">Небольшая площадь</h3>
               <span class="features__number">— №3 —</span>
               <p class="features__text">Все достопримечательности находятся очень близко</p>
             </li>
 
             <li class="features__item">
-              <h3 class="features__heading">Красивая
-                <br>
-                дорога</h3>
+              <h3 class="features__heading">Красивая дорога</h3>
               <span class="features__number">— №4 —</span>
               <p class="features__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </li>
 
             <li class="features__item">
-              <h3 class="features__heading">Мало
-                <br>
-                туристов</h3>
+              <h3 class="features__heading">Мало туристов</h3>
               <span class="features__number">— №5 —</span>
               <p class="features__text">Большинство едет в гранд каньон и толпится там</p>
             </li>
@@ -134,7 +129,7 @@
         <section class="search">
 
           <p class="search__text">
-            <span class="search__heading">Заинтересовались?</span><br>
+            <span class="search__heading">Заинтересовались?</span>
             Укажите предполагаемые даты поездки,
             <br>
             и мы покажем вам лучшие предложения гостиниц в седоне
@@ -185,10 +180,7 @@
 
           <h2 class="visually-hidden">г. Седона, штат Аризона, США</h2>
           <p class="visually-hidden">Пересечение дорог 179 и 89А</p>
-          <div class="map">
-            <iframe id="map" title="Местоположение Седоны" src="https://maps.google.com/maps?width=1200&amp;height=473&amp;hl=en&amp;q=Sedona%2C%20AZ+(Sedona)&amp;ie=UTF8&amp;t=&amp;z=9&amp;iwloc=B&amp;output=embed" width="1200" height="474"></iframe>
-          </div>
-
+          <div id="map" class="map"></div>
 
         </section>
 
@@ -225,6 +217,10 @@
 
       </footer>
     </div>
+
     <script src="js/form.min.js"></script>
+    <script src="js/map.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATQRGkgAi7fOJzMu5d8Ad32pF6vewjNKo&callback=initMap"></script>
+
   </body>
 </html>

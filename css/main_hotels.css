@@ -1,0 +1,182 @@
+.search-result {
+  padding: 0;
+}
+
+.search-result__header {
+  display: flex;
+  padding: 17px 71px;
+}
+
+.search-result__buttons {
+  margin-left: auto;
+  padding: 15px 0 13px;
+}
+
+.search-result__heading {
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: left;
+}
+
+.search-result__heading--small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.search-result__total {
+  padding: 12px 48px 0 0;
+}
+
+.search-result__sort {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding-top: 2px;
+
+  list-style: none;
+}
+
+.sort-list {
+  display: flex;
+
+  list-style: none;
+}
+
+.sort-list__item {
+  margin-right: 33px;
+}
+
+.sort-list__item:last-child {
+  margin-right: 0;
+}
+
+.link__sort {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
+
+  border-bottom: 1px #81b3d2 dotted;
+}
+
+.link__sort:active {
+  color: #000000;
+
+  border-bottom: none;
+  opacity: 1;
+}
+
+.link__sort--current {
+  color: #81b3d2;
+
+  border-bottom: none;
+}
+
+.hotels {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  text-align: left;
+}
+
+.hotels__item {
+  display: flex;
+  min-height: 151px;
+  padding-top: 30px;
+  padding-right: 71px;
+  padding-left: 72px;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hotels__item:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hotel {
+  padding-left: 30px;
+}
+
+.hotel__img {
+  width: 135px;
+  height: 90px;
+}
+
+.hotel__name {
+  margin: -3px 0 3px;
+}
+
+.hotel__text {
+  position: relative;
+
+  width: 258px;
+  margin: 0 0 12px;
+
+  line-height: 24px;
+}
+
+.hotel__rate {
+  position: absolute;
+  left: 115px;
+
+  display: inline-block;
+  width: 96px;
+
+  vertical-align: baseline;
+}
+
+.hotel__link {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.hotel__link:hover {
+  color: #81b3d2;
+}
+
+.hotel__link:active {
+  color: #000000;
+
+  opacity: 0.3;
+}
+
+.hotel-class {
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+  width: 110px;
+  margin-left: auto;
+
+  text-align: right;
+}
+
+.hotel-class__stars {
+  display: inline-block;
+  margin-right: 2px;
+  margin-bottom: 47px;
+
+  vertical-align: top;
+}
+
+.hotel-class__rating {
+  display: block;
+  width: 110px;
+  height: 27px;
+  margin: 0;
+  padding-top: 2px;
+
+  vertical-align: baseline;
+  text-align: center;
+  color: #666666;
+
+  background-color: #f2f2f2;
+}
