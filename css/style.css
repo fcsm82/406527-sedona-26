@@ -565,6 +565,24 @@ input[type=number] {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+}
+
+.features__column--emphasized {
+  width: 400px;
+  padding: 48px 60px 59px;
+
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.features__column--emphasized:nth-last-child(2) {
+  padding: 48px 48px 59px;
+}
+
+.features__column--big {
+  width: 800px;
+  height: 256px;
   padding: 0;
 
   list-style: none;
