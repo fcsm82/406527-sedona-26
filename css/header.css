@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site-logo {
+  z-index: 1;
+
+  width: 138px;
+  height: 71px;
+  margin-bottom: -70px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height: 56px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.menu__item {
+  width: 239px;
+  padding: 12px;
+}
+
+.menu__item:nth-child(3) {
+  margin-left: auto;
+}
+
+.menu__link--current {
+  color: #766357;
+}
+
+.menu__link--current:hover {
+  color: #766357;
+}

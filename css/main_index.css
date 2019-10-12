@@ -1,0 +1,491 @@
+.welcome {
+  background-color: #9edafe;
+  background-image: url("../img/backgrounds/sedona-background.jpg");
+  background-position-y: -56px;
+}
+
+.welcome__img {
+  width: 456px;
+  padding-top: 76px;
+  padding-bottom: 18px;
+}
+
+.welcome::after {
+  content: "";
+
+  display: block;
+  width: 100%;
+  height: 57px;
+  margin: 0;
+
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='1200px' height='57px' viewBox='0 0 1200 57' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Index' transform='translate(-38.000000, -509.000000)' fill='%23FFFFFF' fill-rule='nonzero'%3E%3Cg id='intro' transform='translate(38.000000, -27.000000)'%3E%3Cg id='polygon' transform='translate(0.000000, 536.000000)'%3E%3Cpolygon id='Shape' points='0 57 0 0 250 24 250 0 600 57 950 0 950 24 1200 0 1200 57'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.about {
+  z-index: 1;
+
+  padding-top: 62px;
+
+  line-height: 26px;
+}
+
+.about__heading {
+  width: 440px;
+  margin: 0 auto 24px;
+  padding-bottom: 0;
+
+  font-weight: 700;
+  font-size: 21px;
+  color: #000000;
+}
+
+.about__text {
+  width: 490px;
+  margin: 0 auto 51px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.features__item {
+  width: 400px;
+  min-height: 256px;
+
+  line-height: 21px;
+
+  background-color: #eeeeee;
+}
+
+.features__item:nth-last-child(3) {
+  padding: 48px 92px 60px 90px;
+}
+
+.features__item:nth-last-child(2) {
+  padding: 50px 69px 60px;
+}
+
+.features__item:nth-last-child(1) {
+  padding: 50px 77px 60px;
+}
+
+.features__item--big {
+  display: flex;
+  width: 100%;
+}
+
+.features > .features__item:nth-child(1) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.features__item--reverse {
+  flex-direction: row-reverse;
+}
+
+.features__column {
+  margin: 0;
+}
+
+.features__column--emphasized {
+  width: 400px;
+  padding: 48px 60px 59px;
+
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.features__column--emphasized:nth-last-child(2) {
+  padding: 48px 48px 59px;
+}
+
+.features__column--big {
+  width: 800px;
+  height: 256px;
+  padding: 0;
+}
+
+.features__heading {
+  width: 156px;
+  margin: 0 auto 23px;
+  padding-top: 0;
+
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.features__number {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.features__text {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.features__column--emphasized .features__heading {
+  padding-top: 0;
+}
+
+.benefits {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+
+  list-style: none;
+
+  background-color: #ffffff;
+}
+
+.benefits__item {
+  position: relative;
+
+  width: 400px;
+  min-height: 330px;
+  padding: 0 75px 82px 73px;
+
+  color: #333333;
+}
+
+.benefits__item:nth-child(2) {
+  padding-right: 58px;
+  padding-left: 58px;
+}
+
+.benefits__item:nth-child(3) {
+  padding-right: 63px;
+  padding-left: 64px;
+}
+
+.benefits__item::before {
+  content: "";
+  position: absolute;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.benefits__icon-lodging::before {
+  top: 60px;
+  left: 162px;
+
+  width: 75px;
+  height: 72px;
+
+  background-image: url("../img/svg/icon-1.svg");
+}
+
+.benefits__icon-food::before {
+  top: 61px;
+  left: 163px;
+
+  width: 74px;
+  height: 70px;
+
+  background-image: url("../img/svg/icon-3.svg");
+}
+
+.benefits__icon-souvenir::before {
+  top: 56px;
+  left: 168px;
+
+  width: 64px;
+  height: 76px;
+
+  background-image: url("../img/svg/icon-2.svg");
+}
+
+.benefits__heading {
+  margin: 162px 0 23px;
+  padding: 0;
+
+  font-weight: 700;
+  font-size: 21px;
+
+  overflow-wrap: break-word;
+}
+
+.benefits__text {
+  margin: 0;
+}
+
+.search {
+  z-index: 1;
+
+  padding-top: 57px;
+}
+
+.search__text {
+  display: block;
+  width: 436px;
+  margin: 0 auto 46px;
+
+  line-height: 24px;
+}
+
+.welcome {
+  background-color: #9edafe;
+  background-image: url("../img/backgrounds/sedona-background.jpg");
+  background-position-y: -56px;
+}
+
+.welcome__img {
+  width: 456px;
+  padding-top: 76px;
+  padding-bottom: 18px;
+}
+
+.welcome::after {
+  content: "";
+
+  display: block;
+  width: 100%;
+  height: 57px;
+  margin: 0;
+
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='1200px' height='57px' viewBox='0 0 1200 57' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Index' transform='translate(-38.000000, -509.000000)' fill='%23FFFFFF' fill-rule='nonzero'%3E%3Cg id='intro' transform='translate(38.000000, -27.000000)'%3E%3Cg id='polygon' transform='translate(0.000000, 536.000000)'%3E%3Cpolygon id='Shape' points='0 57 0 0 250 24 250 0 600 57 950 0 950 24 1200 0 1200 57'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.about {
+  z-index: 1;
+
+  padding-top: 62px;
+
+  line-height: 26px;
+}
+
+.about__heading {
+  width: 440px;
+  margin: 0 auto 24px;
+  padding-bottom: 0;
+
+  font-weight: 700;
+  font-size: 21px;
+  color: #000000;
+}
+
+.about__text {
+  width: 490px;
+  margin: 0 auto 51px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.features__item {
+  width: 400px;
+  min-height: 256px;
+
+  line-height: 21px;
+
+  background-color: #eeeeee;
+}
+
+.features__item:nth-last-child(3) {
+  padding: 48px 92px 60px 90px;
+}
+
+.features__item:nth-last-child(2) {
+  padding: 50px 69px 60px;
+}
+
+.features__item:nth-last-child(1) {
+  padding: 50px 77px 60px;
+}
+
+.features__item--big {
+  display: flex;
+  width: 100%;
+}
+
+.features > .features__item:nth-child(1) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.features__item--reverse {
+  flex-direction: row-reverse;
+}
+
+.features__column {
+  margin: 0;
+}
+
+.features__column--emphasized {
+  width: 400px;
+  padding: 48px 60px 59px;
+
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.features__column--emphasized:nth-last-child(2) {
+  padding: 48px 48px 59px;
+}
+
+.features__column--big {
+  width: 800px;
+  height: 256px;
+  padding: 0;
+}
+
+.features__heading {
+  width: 156px;
+  margin: 0 auto 23px;
+  padding-top: 0;
+
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.features__number {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.features__text {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.features__column--emphasized .features__heading {
+  padding-top: 0;
+}
+
+.benefits {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+
+  list-style: none;
+
+  background-color: #ffffff;
+}
+
+.benefits__item {
+  position: relative;
+
+  width: 400px;
+  min-height: 330px;
+  padding: 0 75px 82px 73px;
+
+  color: #333333;
+}
+
+.benefits__item:nth-child(2) {
+  padding-right: 58px;
+  padding-left: 58px;
+}
+
+.benefits__item:nth-child(3) {
+  padding-right: 63px;
+  padding-left: 64px;
+}
+
+.benefits__item::before {
+  content: "";
+  position: absolute;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.benefits__icon-lodging::before {
+  top: 60px;
+  left: 162px;
+
+  width: 75px;
+  height: 72px;
+
+  background-image: url("../img/svg/icon-1.svg");
+}
+
+.benefits__icon-food::before {
+  top: 61px;
+  left: 163px;
+
+  width: 74px;
+  height: 70px;
+
+  background-image: url("../img/svg/icon-3.svg");
+}
+
+.benefits__icon-souvenir::before {
+  top: 56px;
+  left: 168px;
+
+  width: 64px;
+  height: 76px;
+
+  background-image: url("../img/svg/icon-2.svg");
+}
+
+.benefits__heading {
+  margin: 162px 0 23px;
+  padding: 0;
+
+  font-weight: 700;
+  font-size: 21px;
+
+  overflow-wrap: break-word;
+}
+
+.benefits__text {
+  margin: 0;
+}
+
+.search {
+  z-index: 1;
+
+  padding-top: 57px;
+}
+
+.search__text {
+  display: block;
+  width: 436px;
+  margin: 0 auto 46px;
+
+  line-height: 24px;
+}
+
+.search__heading {
+  display: block;
+  margin-bottom: 27px;
+
+  font-weight: 700;
+  font-size: 30px;
+
+  overflow-wrap: break-word;
+}
+
+.map {
+  width: 100%;
+  height: 593px;
+  margin-bottom: -120px;
+
+  background-color: #f2f2f2;
+  background-image: url("../img/map.png");
+  border: 0;
+}

@@ -4,6 +4,7 @@ var form = document.querySelector(".form-search");
 
 var adults = form.querySelector("[name=adults]");
 var child = form.querySelector("[name=child]");
+var dateArr = form.querySelector("[name=date-arrival]");
 
 var isStorageSupport = true;
 var storageAdults = "";
@@ -27,6 +28,19 @@ btn.addEventListener("click", function(evt) {
   } else {
     adults.focus();
   }
+
+  if (storageAdults && storageChild) {
+  adults.value = storageAdults;
+  child.value = storageChild;
+  dateArr.focus();
+
+  } else if (storageAdults) {
+    adults.value = storageAdults;
+    child.focus();
+  } else {
+    adults.focus();
+  }
+
 });
 
 

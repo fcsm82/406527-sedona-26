@@ -1,0 +1,162 @@
+@keyframes bounce {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
+.form-wrap {
+  position: absolute;
+  z-index: 1;
+
+  width: 565px;
+  margin: 0 0 0 calc(50% - 282.5px);
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.form-search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 56px 54px 55px 55px;
+
+  background-color: #ffffff;
+  box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
+
+  animation: bounce 1.5s;
+}
+
+.form-search--hidden {
+  display: none;
+}
+
+.form-search--error {
+  animation: shake 0.6s;
+}
+
+.input-wrap {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.input-wrap--big {
+  width: 458px;
+  margin-bottom: 29px;
+}
+
+.input-wrap--small {
+  width: 226px;
+}
+
+.input-wrap--small:nth-last-child(2) {
+  justify-content: flex-end;
+  width: 220px;
+  margin-left: auto;
+}
+
+.input-wrap--small:nth-last-child(2) .form-search__label {
+  margin-right: 22px;
+}
+
+.field-wrap {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+}
+
+.form-search__label {
+  font-weight: 700;
+  color: #000000;
+}
+
+.form-search__field {
+  height: 38px;
+  margin: 0 0 0 auto;
+
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.form-search__field--big {
+  width: 346px;
+  padding: 0 38px 0 13px;
+}
+
+.form-search__field--small {
+  width: 118px;
+  padding: 0 38px;
+
+  text-align: center;
+}
+
+.form-search__field:hover {
+  background-color: #ebebeb;
+}
+
+.form-search__field:focus {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+}
+
+.form-search__field--big:focus {
+  padding-left: 11px;
+}
+
+.form-search__field:-ms-input-placeholder {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  text-transform: uppercase;
+
+  opacity: 1;
+}
+
+.form-search__field::placeholder {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  text-transform: uppercase;
+
+  opacity: 1;
+}
+
+.form-search__field:focus::placeholder {
+  opacity: 0;
+}
