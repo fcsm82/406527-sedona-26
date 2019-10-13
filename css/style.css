@@ -291,6 +291,8 @@ input[type=number] {
   margin-left: 10px;
   padding: 0;
 
+  vertical-align: top;
+
   background-color: transparent;
 }
 
@@ -1184,6 +1186,10 @@ input[type=number] {
   opacity: 1;
 }
 
+.form-search__field:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
 .form-search__field:focus::placeholder {
   opacity: 0;
 }
@@ -1539,7 +1545,7 @@ input[type=number] {
   display: inline-block;
   width: 96px;
 
-  vertical-align: baseline;
+  vertical-align: top;
 }
 
 .hotel__link {

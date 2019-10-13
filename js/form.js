@@ -17,6 +17,8 @@ try {
   isStorageSupport = false;
 }
 
+form.classList.toggle("form-search--hidden");
+
 btn.addEventListener("click", function(evt) {
   evt.preventDefault();
   form.classList.remove("form-search--error");
