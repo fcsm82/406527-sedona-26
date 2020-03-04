@@ -1,4 +1,5 @@
 # Личный проект «Седона»
+https://fcsm82.github.io/sedona-26/
 
 * Студент: [Alexey Ivanov](https://up.htmlacademy.ru/htmlcss/26/user/406527).
 * Наставник: `Михаил Пушков`.
