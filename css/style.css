@@ -572,6 +572,7 @@ input[type=number] {
 .features__column--emphasized {
   width: 400px;
   padding: 48px 60px 59px;
+  min-height: 256px;
 
   color: #ffffff;
 
