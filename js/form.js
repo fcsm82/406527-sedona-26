@@ -11,6 +11,17 @@ const storageChild = localStorage.getItem("child");
 toggleFormVisibility();
 addEventListenerToElements();
 
+function updateFormState() {
+  if (storageAdults) {
+    adults.value = storageAdults;
+    child.focus();
+  }
+  if (storageAdults && storageChild) {
+    child.value = storageChild;
+    dateArr.focus();
+  }
+}
+
 function toggleFormVisibility() {
   form.classList.toggle(CLASS_HIDDEN);
 }
@@ -26,20 +37,11 @@ function toggleAndSetForm(evt) {
   form.classList.remove(CLASS_ERROR);
   form.classList.toggle(CLASS_HIDDEN);
 
-  if (storageAdults) {
-    adults.value = storageAdults;
-    child.focus();
-  } else {
+  updateFormState();
+
+  if (!storageAdults) {
     adults.focus();
   }
-
-  // this condition took care by the above condition.
-  if (storageAdults && storageChild) {
-    adults.value = storageAdults;
-    child.value = storageChild;
-    dateArr.focus();
-  }
-
 }
 
 function submitForm(evt) {
