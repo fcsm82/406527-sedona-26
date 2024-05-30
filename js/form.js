@@ -1,12 +1,12 @@
 const KEY_CODE_ESC = 27;
 const CLASS_HIDDEN = "form-search--hidden";
 const CLASS_ERROR = "form-search--error";
-var form = document.querySelector(".form-search");
-var adults = form.querySelector("[name=adults]");
-var child = form.querySelector("[name=child]");
-var dateArr = form.querySelector("[name=date-arrival]");
-var storageAdults = localStorage.getItem("adults");
-var storageChild = localStorage.getItem("child");
+const form = document.querySelector(".form-search");
+const adults = form.querySelector("[name=adults]");
+const child = form.querySelector("[name=child]");
+const dateArr = form.querySelector("[name=date-arrival]");
+const storageAdults = localStorage.getItem("adults");
+const storageChild = localStorage.getItem("child");
 
 toggleFormVisibility();
 addEventListenerToElements();
