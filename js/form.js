@@ -1,28 +1,30 @@
-var btn = document.querySelector(".btn__search");
-
+const KEY_CODE_ESC = 27;
+const CLASS_HIDDEN = "form-search--hidden";
+const CLASS_ERROR = "form-search--error";
 var form = document.querySelector(".form-search");
-
 var adults = form.querySelector("[name=adults]");
 var child = form.querySelector("[name=child]");
 var dateArr = form.querySelector("[name=date-arrival]");
+var storageAdults = localStorage.getItem("adults");
+var storageChild = localStorage.getItem("child");
 
-var isStorageSupport = true;
-var storageAdults = "";
-var storageChild = "";
+toggleFormVisibility();
+addEventListenerToElements();
 
-try {
-  storageAdults = localStorage.getItem("adults");
-  storageChild = localStorage.getItem("child");
-} catch (err) {
-  isStorageSupport = false;
+function toggleFormVisibility() {
+  form.classList.toggle(CLASS_HIDDEN);
 }
 
-form.classList.toggle("form-search--hidden");
+function addEventListenerToElements() {
+  document.querySelector(".btn__search").addEventListener("click", toggleAndSetForm);
+  form.addEventListener("submit", submitForm);
+  window.addEventListener("keydown", keydownForm);
+}
 
-btn.addEventListener("click", function(evt) {
+function toggleAndSetForm(evt) {
   evt.preventDefault();
-  form.classList.remove("form-search--error");
-  form.classList.toggle("form-search--hidden");
+  form.classList.remove(CLASS_ERROR);
+  form.classList.toggle(CLASS_HIDDEN);
 
   if (storageAdults) {
     adults.value = storageAdults;
@@ -31,41 +33,32 @@ btn.addEventListener("click", function(evt) {
     adults.focus();
   }
 
+  // this condition took care by the above condition.
   if (storageAdults && storageChild) {
-  adults.value = storageAdults;
-  child.value = storageChild;
-  dateArr.focus();
-
-  } else if (storageAdults) {
     adults.value = storageAdults;
-    child.focus();
-  } else {
-    adults.focus();
+    child.value = storageChild;
+    dateArr.focus();
   }
 
-});
+}
 
-
-form.addEventListener("submit", function(evt) {
+function submitForm(evt) {
   if (!adults.value || !child.value) {
     evt.preventDefault();
-    form.classList.remove("form-search--error");
-    form.offsetWidth = form.offsetWidth;
-    form.classList.add("form-search--error");
-  } else {
-    if (isStorageSupport) {
-      localStorage.setItem("adults", adults.value);
-      localStorage.setItem("child", child.value);
-    }
+    form.classList.remove(CLASS_ERROR);
+    form.classList.add(CLASS_ERROR);
+  } else if (localStorage) {
+    localStorage.setItem("adults", adults.value);
+    localStorage.setItem("child", child.value);
   }
-});
+}
 
-window.addEventListener("keydown", function(evt) {
-  if (evt.keyCode === 27) {
+function keydownForm(evt) {
+  if (evt.keyCode === KEY_CODE_ESC) {
     evt.preventDefault();
-    if (form.classList.contains("form-search--hidden")) {
-      form.classList.remove("form-search--hidden");
-      form.classList.remove("form-search--error");
+    if (form.classList.contains(CLASS_HIDDEN)) {
+      form.classList.remove(CLASS_HIDDEN);
+      form.classList.remove(CLASS_ERROR);
     }
   }
-});
+}
